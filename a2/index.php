@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Assignment 2</title>
-    
+
     <!-- Keep wireframe.css for debugging, add your css to style.css -->
     <link id='wireframecss' type="text/css" rel="stylesheet" href="../wireframe.css" disabled>
     <link id='stylecss' type="text/css" rel="stylesheet" href="style.css">
@@ -13,12 +13,17 @@
 
   <body>
 
-    <header>
-      <div>Put company logo and name here</div>
+    <header class = "header">
+        <h1 class = "header"><img class="logo" src="../../../media/logo.png" alt="logo">
+          Got any good ideas for name?</h1>
     </header>
 
-    <nav>
-      <div>Put website navigation links here</div>
+    <nav class="topnav">
+      <a href='#AboutUs'>About Us</a>
+      <a href='#Prices'>Prices Section</a>
+      <a href='#NowShowing'>Now Showing</a>
+      <a href='#Synopsis'>Synopsis</a>
+      <a href='#Booking'>Booking</a>
     </nav>
 
     <main>

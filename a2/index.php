@@ -27,26 +27,28 @@
     <main>
 
     <article id='AboutUs'>
-
+      <h2>About Us</h2>
     </article>
 
     <article id='Prices'>
+      <h2>Prices</h2>
       <table>
 
       </table>
     </article>
 
     <article id='NowShowing'>
-
+      <h2>Now Showing</h2>
     </article>
 
     <article id='Synopsis'>
-
+      <h2>Synopsis</h2>
     </article>
 
     <article id='Booking'>
-    <!-- Creative Commons image sourced from https://pixabay.com/en/maintenance-under-construction-2422173/ and used for educational purposes only -->
-        <img src='../../media/website-under-construction.png' alt='Website Under Construction' />
+      <h2>Booking</h2>
+        <!-- Creative Commons image sourced from https://pixabay.com/en/maintenance-under-construction-2422173/ and used for educational purposes only -->
+          <img src='../../media/website-under-construction.png' alt='Website Under Construction' />
     </article>
 
     </main>

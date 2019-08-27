@@ -25,10 +25,6 @@
     </nav>
 
     <main>
-      <article id='Website Under Construction'>
-    <!-- Creative Commons image sourced from https://pixabay.com/en/maintenance-under-construction-2422173/ and used for educational purposes only -->
-        <img src='../../media/website-under-construction.png' alt='Website Under Construction' />
-      </article>
 
     <article id='AboutUs'>
 
@@ -44,13 +40,22 @@
 
     </article>
 
+    <article id='Synopsis'>
+
+    </article>
+
+    <article id='Booking'>
+    <!-- Creative Commons image sourced from https://pixabay.com/en/maintenance-under-construction-2422173/ and used for educational purposes only -->
+        <img src='../../media/website-under-construction.png' alt='Website Under Construction' />
+    </article>
+
     </main>
 
     <footer>
-      <p>Sebastian LaCroix</p>
-      <p>lunardocinema@hotmail.com</p>
-      <p>(03) 9536 4931</p>
-      <p>742 Evergreen Terrace, Sunshine</p>
+      <div><p>Sebastian LaCroix<br>
+      lunardocinema@hotmail.com<br>
+      (03) 9536 4931<br>
+      742 Evergreen Terrace, Sunshine</p></div>
       <div>&copy;<script>
         document.write(new Date().getFullYear());
       </script> Justin Seymour s3655931, Danny Khuu s3601030, Group 32. Last modified <?= date ("Y F d  H:i", filemtime($_SERVER['SCRIPT_FILENAME'])); ?>.</div>

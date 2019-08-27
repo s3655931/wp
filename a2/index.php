@@ -15,15 +15,13 @@
 
     <header class = "header">
         <h1 class = "header"><img class="logo" src="../../../media/logo.png" alt="logo">
-          Got any good ideas for name?</h1>
+          Lunardo Cinema</h1>
     </header>
 
     <nav class="topnav">
       <a href='#AboutUs'>About Us</a>
       <a href='#Prices'>Prices Section</a>
       <a href='#NowShowing'>Now Showing</a>
-      <a href='#Synopsis'>Synopsis</a>
-      <a href='#Booking'>Booking</a>
     </nav>
 
     <main>
@@ -31,12 +29,31 @@
     <!-- Creative Commons image sourced from https://pixabay.com/en/maintenance-under-construction-2422173/ and used for educational purposes only -->
         <img src='../../media/website-under-construction.png' alt='Website Under Construction' />
       </article>
+
+    <article id='AboutUs'>
+
+    </article>
+
+    <article id='Prices'>
+      <table>
+
+      </table>
+    </article>
+
+    <article id='NowShowing'>
+
+    </article>
+
     </main>
 
     <footer>
+      <p>Sebastian LaCroix</p>
+      <p>lunardocinema@hotmail.com</p>
+      <p>(03) 9536 4931</p>
+      <p>742 Evergreen Terrace, Sunshine</p>
       <div>&copy;<script>
         document.write(new Date().getFullYear());
-      </script> Put your name(s), student number(s) and group name here. Last modified <?= date ("Y F d  H:i", filemtime($_SERVER['SCRIPT_FILENAME'])); ?>.</div>
+      </script> Justin Seymour s3655931, Danny Khuu s3601030, Group 32. Last modified <?= date ("Y F d  H:i", filemtime($_SERVER['SCRIPT_FILENAME'])); ?>.</div>
       <div>Disclaimer: This website is not a real website and is being developed as part of a School of Science Web Programming course at RMIT University in Melbourne, Australia.</div>
       <div><button id='toggleWireframeCSS' onclick='toggleWireframe()'>Toggle Wireframe CSS</button></div>
     </footer>

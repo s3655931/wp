@@ -33,7 +33,7 @@
       </div>
     </article>
 
-    <article id='Prices'>
+    <article id='Prices' style="height:1000px">
       <h2>Prices</h2>
       <table>
 

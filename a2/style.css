@@ -22,6 +22,10 @@ html {
   }
 }
 
+article{
+  padding: 2rem;
+}
+
 
 .topnav {
   background-color: #333;

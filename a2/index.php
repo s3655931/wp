@@ -28,6 +28,9 @@
 
     <article id='AboutUs'>
       <h2>About Us</h2>
+      <div style="height:1000px">
+
+      </div>
     </article>
 
     <article id='Prices'>

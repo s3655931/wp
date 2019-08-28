@@ -15,11 +15,18 @@ html {
   height: 70px;
   width: 70px;
 }
+
+
+
 @media (min-height: 300px) {
   nav {
     position: sticky;
     top: 0;
   }
+}
+
+article{
+  padding: 2rem;
 }
 
 
@@ -33,14 +40,18 @@ html {
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 15px 14%;
   text-decoration: none;
   font-size: 17px;
-  width: calc(100% / 2);
+  padding: 15px 0px;
+  height:calc(100% / 1);
+  width:calc(100% / 1);
 }
-
 
 .topnav a:hover {
   background-color: #ddd;
   color: black;
+}
+
+@media only screen and (min-width: 800px) {
+  .topnav a { width: calc(100% / 3); height:calc(100% / 3);}
 }

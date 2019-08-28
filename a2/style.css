@@ -55,3 +55,34 @@ article{
 @media only screen and (min-width: 800px) {
   .topnav a { width: calc(100% / 3); height:calc(100% / 3);}
 }
+
+.wrapper{
+  margin:0 auto;
+  text-align:center;
+}
+table{
+      border-collapse: collapse;
+}
+
+td{
+  border:2px solid #000000;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+th{
+  border:2px solid #000000;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #FFFFFF;
+}
+
+.cell{
+  color: #000000;
+  background-color: #FFFFFF;
+  font-weight: bold;
+  font-size: 20px;
+}

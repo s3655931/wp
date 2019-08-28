@@ -35,8 +35,42 @@
 
     <article id='Prices' style="height:1000px">
       <h2>Prices</h2>
-      <table>
-
+      <table class="wrapper">
+        <tr>
+          <th>Seat Type</th>
+          <th>All day Monday and Wednesday AND 12pm on Weekdays</th>
+          <th>All other times</th>
+        </tr>
+        <tr>
+          <td class="cell">Standard Adult</td>
+          <td>14.00</td>
+          <td>19.80</td>
+        </tr>
+        <tr>
+          <td class="cell">Standard Concession </td>
+          <td>12.50</td>
+          <td>17.50</td>
+        </tr>
+        <tr>
+          <td class="cell">Standard Child</td>
+          <td>11.00</td>
+          <td>15.30</td>
+        </tr>
+        <tr>
+          <td class="cell">First Class Adult</td>
+          <td>24.00</td>
+          <td>30.00</td>
+        </tr>
+        <tr>
+          <td class="cell">First Class Concession</td>
+          <td>22.50</td>
+          <td>27.00</td>
+        </tr>
+        <tr>
+          <td class="cell">First Class Child</td>
+          <td>21.00 </td>
+          <td>24.00</td>
+        </tr>
       </table>
     </article>
 

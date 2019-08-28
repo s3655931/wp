@@ -38,36 +38,43 @@
       <table class="wrapper">
         <tr>
           <th>Seat Type</th>
+          <td>Seat Code</td>
           <th>All day Monday and Wednesday AND 12pm on Weekdays</th>
           <th>All other times</th>
         </tr>
         <tr>
           <td class="cell">Standard Adult</td>
+          <td>STA</td>
           <td>14.00</td>
           <td>19.80</td>
         </tr>
         <tr>
           <td class="cell">Standard Concession </td>
+          <td>STP</td>
           <td>12.50</td>
           <td>17.50</td>
         </tr>
         <tr>
           <td class="cell">Standard Child</td>
+          <td>STC</td>
           <td>11.00</td>
           <td>15.30</td>
         </tr>
         <tr>
           <td class="cell">First Class Adult</td>
+          <td>FCA</td>
           <td>24.00</td>
           <td>30.00</td>
         </tr>
         <tr>
           <td class="cell">First Class Concession</td>
+          <td>FCP</td>
           <td>22.50</td>
           <td>27.00</td>
         </tr>
         <tr>
           <td class="cell">First Class Child</td>
+          <td>FCC</td>
           <td>21.00 </td>
           <td>24.00</td>
         </tr>
@@ -80,6 +87,38 @@
 
     <article id='Synopsis'>
       <h2>Synopsis</h2>
+      <div class="wrapper1">
+        <div class="midSec">
+          <header class="title">Avengers: Endgame [PG]</header>
+          <aside class="plot">
+            <p style="height:200px; text-align:left;">Adwift in space with no
+              food ow watew, tony stawk sends a message tuwu peppew potts as
+              hiws oxygen suppwy stawts tuwu dwindwe. Meanwhiwe, the wemaining
+              avengews -- thow, bwack widow, captain amewica awnd bwuce bannew
+              -- must figuwe out a way tuwu bwing bawck theiw vanquished awwies
+              fow an epic showdown with thanos -- the eviw demigod who decimated
+              the pwanet awnd the univewse.
+              (Stolen from somewhere. All I did was google "Synopsis"
+              and this was brought up.)</p>
+          </aside>
+        </div>
+        <iframe class="vid" width="560" height="315" src="https://www.youtube.com/embed/TcMBFSGVi1c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <aside class="makBook">
+        <p class="bookNow">Make a Booking:</p>
+        <aside class="tRowBook">
+          <input type="submit" value="Day - Hour">
+          <input type="submit" value="Day - Hour">
+          <input type="submit" value="Day - Hour">
+          <input type="submit" value="Day - Hour">
+          <input type="submit" value="Day - Hour">
+          <input type="submit" value="Day - Hour">
+          <input type="submit" value="Day - Hour">
+          <input type="submit" value="Day - Hour">
+          <input type="submit" value="Day - Hour">
+          <input type="submit" value="Day - Hour">
+        </aside>
+      </aside>
     </article>
 
     <article id='Booking'>

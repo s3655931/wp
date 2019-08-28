@@ -71,6 +71,12 @@ td{
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
+td:nth-child(2)
+{
+  display: none;
+}
+
 th{
   border:2px solid #000000;
   padding-left: 35px;
@@ -85,4 +91,49 @@ th{
   background-color: #FFFFFF;
   font-weight: bold;
   font-size: 20px;
+}
+.wrapper1 {
+  display: flex;
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
+}
+
+.wrapper1 > * {
+  padding: 10px;
+  flex: 1 100%;
+}
+
+@media all and (min-width: 600px) {
+/*  .title { order: 1;  flex: 1; border-style: solid;}
+  .midSec {order: 2; flex: 1; border-style: solid;}
+  .plot {flex: 1; border-style: solid;}
+  .vid {flex: 1; border-style: solid;}
+  .makBook {flex: 1; border-style: solid;}*/
+}
+
+@media all and (min-width: 800px) {
+  .midSec { flex: 1; order: 1;}
+  .title { order: 1;}
+  .plot { flex: 4; order: 2;}
+  .vid { flex: 1; order: 2;}
+  .makBook  { display: flex; flex-flow: row wrap;}
+  .bookNow { flex: 1; order: 1; flex-direction: row;}
+  .tRowBook { flex: 3; order: 2; flex-direction: row;}
+}
+
+.bookNow{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.tRowBook > input{
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    text-decoration: none;
+    border-color: #000000;
+    padding: 5px;
+    margin: 5px;
+    font-size: 15px;
+    font-weight: bold;
 }

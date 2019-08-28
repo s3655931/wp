@@ -36,6 +36,7 @@ html {
   padding: 15px 14%;
   text-decoration: none;
   font-size: 17px;
+  width: calc(100% / 2);
 }
 
 

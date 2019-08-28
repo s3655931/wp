@@ -14,7 +14,7 @@
   <body>
 
     <header class = "header">
-        <h1 class = "header"><img class="logo" src="../../../media/logo.png" alt="logo">
+        <h1 class = "header"><img class="logo" src="../../media/logo.png" alt="logo">
           Lunardo Cinema</h1>
     </header>
 

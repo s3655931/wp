@@ -31,15 +31,21 @@
     <article id='AboutUs'>
       <h2>About Us</h2>
       <!-- <div style="height:1000px"> -->
-      <p>After renovations, Lunardo Cinema is back open and better than ever. There are new seats:
-      The standard seats have been replaced and we have brand new reclinable first class seats.</p>
-      <p>Our projection and sound systems have been upgraded with 3D Dolby Vision projection and
-      Dolby Atmos sound for the ultimate cinema experience, which is only made better with some
-      of our fresh made popcorn.</p>
+      <p>After renovations, Lunardo Cinema is back open and better than ever. Come and see movies
+        how they're meant to be seen.
+      </p>
+      <p>We now have new seats, so that you can enjoy the movies and comfortably as possible. Our
+        first class seats now can recline so you can really lie back and experience the movie.
+      </p>
       <div class="wrapper">
         <img src="../../media/538.jpg" class="seat" alt="standard seat">
         <img src="../../media/Verona-Twin.png" class="seat" alt="first class seat">
       </div>
+      <p>Our projection and sound systems have been upgraded with 3D Dolby Vision projection and
+      Dolby Atmos sound for the ultimate cinema experience, which is only made better with some
+      of our fresh made popcorn.</p>
+      <p>For more information on 3D Dolby Vision projection and Dolby Atmos sound, please visit
+      https://www.dolby.com/us/en/cinema</p>
 
 
       </div>

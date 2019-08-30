@@ -45,7 +45,7 @@
       </div>
     </article>
 
-    <article id='Prices' style="height:1000px">
+    <article id='Prices'>
       <h2>Prices</h2>
       <table class="wrapper">
         <tr>
@@ -189,15 +189,14 @@
         <div class="midSec">
           <header class="title">Avengers: Endgame [PG]</header>
           <aside class="plot">
-            <p style="height:200px; text-align:left;">Adwift in space with no
-              food ow watew, tony stawk sends a message tuwu peppew potts as
-              hiws oxygen suppwy stawts tuwu dwindwe. Meanwhiwe, the wemaining
-              avengews -- thow, bwack widow, captain amewica awnd bwuce bannew
-              -- must figuwe out a way tuwu bwing bawck theiw vanquished awwies
-              fow an epic showdown with thanos -- the eviw demigod who decimated
-              the pwanet awnd the univewse.
-              (Stolen from somewhere. All I did was google "Synopsis"
-              and this was brought up.)</p>
+            <p style="height:200px; text-align:left;">Adrift in space with no
+            food or water, Tony Stark sends a message to Pepper Potts as his
+            oxygen supply starts to dwindle. Meanwhile, the remaining Avengers
+            -- Thor, Black Widow, Captain America and Bruce Banner -- must
+            figure out a way to bring back their vanquished allies for an epic
+            showdown with Thanos -- the evil demigod who decimated the planet
+            and the universe.</p>
+            <!-- Synopsis source:https://geeks.media/avengers-endgame -->
           </aside>
         </div>
         <iframe class="vid" width="560" height="315" src="https://www.youtube.com/embed/TcMBFSGVi1c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -205,16 +204,40 @@
       <aside class="makBook">
         <p class="bookNow">Make a Booking:</p>
         <aside class="tRowBook">
-          <input type="submit" value="Day - Hour">
-          <input type="submit" value="Day - Hour">
-          <input type="submit" value="Day - Hour">
-          <input type="submit" value="Day - Hour">
-          <input type="submit" value="Day - Hour">
-          <input type="submit" value="Day - Hour">
-          <input type="submit" value="Day - Hour">
-          <input type="submit" value="Day - Hour">
-          <input type="submit" value="Day - Hour">
-          <input type="submit" value="Day - Hour">
+          <input class="hiddencell" type="submit" value="Monday - 12pm">
+          <input class="hiddencell" type="submit" value="Monday - 3pm">
+          <input class="hiddencell" type="submit" value="Monday - 6pm">
+          <input class="hiddencell" type="submit" value="Monday - 9pm">
+
+          <input class="hiddencell" type="submit" value="Tuesday - 12pm">
+          <input class="hiddencell" type="submit" value="Tuesday - 3pm">
+          <input class="hiddencell" type="submit" value="Tuesday - 6pm">
+          <input class="hiddencell" type="submit" value="Tuesday - 9pm">
+
+          <input class="hiddencell" type="submit" value="Wednesday - 12pm">
+          <input class="hiddencell" type="submit" value="Wednesday - 3pm">
+          <input class="hiddencell" type="submit" value="Wednesday - 6pm">
+          <input type="submit" value="Wednesday - 9pm">
+
+          <input class="hiddencell" type="submit" value="Thursday - 12pm">
+          <input class="hiddencell" type="submit" value="Thursday - 3pm">
+          <input class="hiddencell" type="submit" value="Thursday - 6pm">
+          <input type="submit" value="Thursday - 9pm">
+
+          <input class="hiddencell" type="submit" value="Friday - 12pm">
+          <input class="hiddencell" type="submit" value="Friday - 3pm">
+          <input class="hiddencell" type="submit" value="Friday - 6pm">
+          <input type="submit" value="Friday - 9pm">
+
+          <input class="hiddencell" type="submit" value="Saturday - 12pm">
+          <input class="hiddencell" type="submit" value="Saturday - 3pm">
+          <input type="submit" value="Saturday - 6pm">
+          <input class="hiddencell" type="submit" value="Saturday - 9pm">
+
+          <input class="hiddencell" type="submit" value="Sunday - 12pm">
+          <input class="hiddencell" type="submit" value="Sunday - 3pm">
+          <input type="submit" value="Sunday - 6pm">
+          <input class="hiddencell" type="submit" value="Sunday - 9pm">
         </aside>
       </aside>
     </article>

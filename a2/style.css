@@ -126,6 +126,10 @@ th{
   flex: 1 100%;
 }
 
+.hiddencell{
+  display: none;
+}
+
 @media all and (min-width: 600px) {
 /*  .title { order: 1;  flex: 1; border-style: solid;}
   .midSec {order: 2; flex: 1; border-style: solid;}
@@ -214,5 +218,3 @@ footer > *{
   .movietitle{flex: 1; order: 1;}
   .movietimes{flex: 5; order: 2;}
 }
-
-

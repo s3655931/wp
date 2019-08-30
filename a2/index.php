@@ -24,16 +24,19 @@
       <a href='#NowShowing'>Now Showing</a>
     </nav>
 
-    <div class="parallax"></div>
     <main>
 
     <article id='AboutUs'>
-
+    <div class="parallax"></div>
       <h2>About Us</h2>
       <!-- <div style="height:1000px"> -->
       <p>After renovations, Lunardo Cinema is back open and better than ever. There are new seats:
-      The standard seats have been replaced and we have brand new reclinable first class seats.
-      </p>
+      The standard seats have been replaced and we have brand new reclinable first class seats.</p>
+      <p>Our projection and sound systems have been upgraded with 3D Dolby Vision projection and
+      Dolby Atmos sound for the ultimate cinema experience, which is only made better with some
+      of our fresh made popcorn.</p>
+      <img src="../../media/538.jpg" alt="standard seat">
+      <img src="../../media/Verona-Twin.png" alt="first class seat">
 
 
       </div>

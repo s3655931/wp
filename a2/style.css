@@ -1,7 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Almendra&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 html {
   scroll-behavior: smooth;
+}
+
+nav > *{
+  font-family: 'Roboto', sans-serif;
+}
+
+main > *{
+  font-family: 'Roboto', sans-serif;
 }
 
 .header  {
@@ -9,11 +18,12 @@ html {
   text-align: center;
   padding: 20px;
   opacity: 1;
+  font-size: 50px;
 }
 
 .logo{
-  height: 70px;
-  width: 70px;
+  height: 150px;
+  width: 150px;
 }
 
 .parallax {
@@ -148,4 +158,8 @@ th{
     margin: 5px;
     font-size: 15px;
     font-weight: bold;
+}
+
+footer > *{
+  font-family: 'Roboto', sans-serif;
 }

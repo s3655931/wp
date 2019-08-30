@@ -47,8 +47,6 @@
       <p>For more information on 3D Dolby Vision projection and Dolby Atmos sound, please visit
       <a href="https://www.dolby.com/us/en/cinema">The Dolby Website</a></p>
 
-
-      </div>
     </article>
 
     <article id='Prices'>

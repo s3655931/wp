@@ -24,10 +24,10 @@
       <a href='#NowShowing'>Now Showing</a>
     </nav>
 
+    <div class="parallax"></div>
     <main>
 
     <article id='AboutUs'>
-      <div class="parallax"></div>
 
       <h2>About Us</h2>
       <!-- <div style="height:1000px"> -->

@@ -21,7 +21,7 @@ html {
   background-image: url("../../media/1.jpg");
 
   /* Full height */
-  height: 100%;
+  height: 460px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;

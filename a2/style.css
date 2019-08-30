@@ -163,3 +163,12 @@ th{
 footer > *{
   font-family: 'Roboto', sans-serif;
 }
+
+seat {
+  margin:0 auto;
+  text-align:center;
+  display: flex;
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
+}

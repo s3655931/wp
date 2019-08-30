@@ -26,8 +26,9 @@
 
     <main>
 
-    <article id='AboutUs'>
     <div class="parallax"></div>
+
+    <article id='AboutUs'>
       <h2>About Us</h2>
       <!-- <div style="height:1000px"> -->
       <p>After renovations, Lunardo Cinema is back open and better than ever. There are new seats:
@@ -98,7 +99,7 @@
       <div class="moviebox">
         <div class="movie">
           <div class="poster">
-            <img src="../../media/endgame.jpeg" width="200px">
+            <img src="../../media/endgame.jpeg" width="200px" alt="avengers poster">
           </div>
 
           <div class="details">
@@ -118,7 +119,7 @@
 
         <div class="movie1">
           <div class="poster">
-            <img src="../../media/top-end-wed.jpg" width="200px">
+            <img src="../../media/top-end-wed.jpg" width="200px" alt="top end wedding poster">
           </div>
 
           <div class="details">
@@ -139,7 +140,7 @@
       <div class="moviebox">
         <div class="movie">
           <div class="poster">
-            <img src="../../media/dumbo.jpg" width="200px">
+            <img src="../../media/dumbo.jpg" width="200px" alt="dumbo poster">
           </div>
 
           <div class="details">
@@ -161,7 +162,7 @@
 
         <div class="movie1">
           <div class="poster">
-            <img src="../../media/happy-prince.jpg" width="200px">
+            <img src="../../media/happy-prince.jpg" width="200px" alt="the happy prince poster">
           </div>
 
           <div class="details">
@@ -233,7 +234,7 @@
       742 Evergreen Terrace, Sunshine</p></div>
       <div>&copy;<script>
         document.write(new Date().getFullYear());
-      </script> Justin Seymour s3655931, Danny Khuu s3601030, Group 32. Last modified <?= date ("Y F d  H:i", filemtime($_SERVER['SCRIPT_FILENAME'])); ?>.</div>
+      </script> Justin Seymour s3655931, Danny Khuu s3601030, Group 32. <a src="https://github.com/s3655931/wp">Github Link.</a> Last modified <?= date ("Y F d  H:i", filemtime($_SERVER['SCRIPT_FILENAME'])); ?>.</div>
       <div>Disclaimer: This website is not a real website and is being developed as part of a School of Science Web Programming course at RMIT University in Melbourne, Australia.</div>
       <div><button id='toggleWireframeCSS' onclick='toggleWireframe()'>Toggle Wireframe CSS</button></div>
     </footer>

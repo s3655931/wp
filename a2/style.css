@@ -167,10 +167,6 @@ footer > *{
 seat {
   margin:0 auto;
   text-align:center;
-  display: flex;
-  flex-flow: row wrap;
-  font-weight: bold;
-  text-align: center;
   width:566px;
   height:528px;
 }

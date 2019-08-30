@@ -35,8 +35,8 @@
       <p>Our projection and sound systems have been upgraded with 3D Dolby Vision projection and
       Dolby Atmos sound for the ultimate cinema experience, which is only made better with some
       of our fresh made popcorn.</p>
-      <img src="../../media/538.jpg" alt="standard seat">
-      <img src="../../media/Verona-Twin.png" alt="first class seat">
+      <img src="../../media/538.jpg" class="seat" alt="standard seat">
+      <img src="../../media/Verona-Twin.png" class="seat" alt="first class seat">
 
 
       </div>

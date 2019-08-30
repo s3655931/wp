@@ -98,7 +98,27 @@
       <div class="moviebox">
         <div class="movie">
           <div class="poster">
-            <img src="../../media/endgame.jpeg">
+            <img src="../../media/endgame.jpeg" width="200px">
+          </div>
+
+          <div class="details">
+            <div class="movietitle">
+              <p>Avengers Endgame [PG]</p>
+            </div>
+
+            <div class="movietimes">
+              <p> Time <br>
+              Time <br>
+              Time <br>
+              Time <br>
+              Time </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="movie1">
+          <div class="poster">
+            <img src="../../media/endgame.jpeg" width="200px">
           </div>
 
           <div class="details">

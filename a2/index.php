@@ -234,7 +234,7 @@
       742 Evergreen Terrace, Sunshine</p></div>
       <div>&copy;<script>
         document.write(new Date().getFullYear());
-      </script> Justin Seymour s3655931, Danny Khuu s3601030, Group 32. <a src="https://github.com/s3655931/wp">Github Link.</a> Last modified <?= date ("Y F d  H:i", filemtime($_SERVER['SCRIPT_FILENAME'])); ?>.</div>
+      </script> Justin Seymour s3655931, Danny Khuu s3601030, Group 32. <a href="https://github.com/s3655931/wp" target="_blank">Github Link.</a> Last modified <?= date ("Y F d  H:i", filemtime($_SERVER['SCRIPT_FILENAME'])); ?>.</div>
       <div>Disclaimer: This website is not a real website and is being developed as part of a School of Science Web Programming course at RMIT University in Melbourne, Australia.</div>
       <div><button id='toggleWireframeCSS' onclick='toggleWireframe()'>Toggle Wireframe CSS</button></div>
     </footer>

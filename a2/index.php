@@ -107,31 +107,77 @@
             </div>
 
             <div class="movietimes">
-              <p> Time <br>
-              Time <br>
-              Time <br>
-              Time <br>
-              Time </p>
+              <p> Monday 8:30pm <br>
+              Wednesday 4:30pm <br>
+              Wednesday 8:30pm <br>
+              Friday 8:30 pm <br>
+              Friday 10:30 pm <br>
+              Saturday 10:30 pm</p>
             </div>
           </div>
         </div>
 
         <div class="movie1">
           <div class="poster">
-            <img src="../../media/endgame.jpeg" width="200px">
+            <img src="../../media/lion-king.jpg" width="200px">
           </div>
 
           <div class="details">
             <div class="movietitle">
-              <p>Avengers Endgame [PG]</p>
+              <p>The Lion King [PG]</p>
             </div>
 
             <div class="movietimes">
-              <p> Time <br>
-              Time <br>
-              Time <br>
-              Time <br>
-              Time </p>
+              <p> Wednesday 5:30 pm<br>
+              Thursday 2:30 pm<br>
+              Thursday 5:30 pm<br>
+              Friday 10:30 am <br>
+              Friday 5:30 pm <br>
+              Saturday 5:30 pm</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="moviebox">
+        <div class="movie">
+          <div class="poster">
+            <img src="../../media/dogs-journey.jpg" width="200px">
+          </div>
+
+          <div class="details">
+            <div class="movietitle">
+              <p>A Dog's Journey [PG]</p>
+            </div>
+
+            <div class="movietimes">
+              <p> Monday 4:30pm <br>
+              Wednesday 4:30pm <br>
+              Wednesday 5:30pm <br>
+              Friday 6:30 pm <br>
+              Friday 8:30 pm <br>
+              Saturday 6:30 pm</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="movie1">
+          <div class="poster">
+            <img src="../../media/hobs-shaw.jpg" width="200px">
+          </div>
+
+          <div class="details">
+            <div class="movietitle">
+              <p>Hobbs & Shaw [M]</p>
+            </div>
+
+            <div class="movietimes">
+              <p> Wednesday 9:30 pm<br>
+              Thursday 7:30 pm<br>
+              Thursday 9:30 pm<br>
+              Friday 7:30 pm <br>
+              Friday 9:30 pm <br>
+              Saturday 9:30 pm</p>
             </div>
           </div>
         </div>

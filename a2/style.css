@@ -171,4 +171,6 @@ seat {
   flex-flow: row wrap;
   font-weight: bold;
   text-align: center;
+  width:566px;
+  height:528px;
 }

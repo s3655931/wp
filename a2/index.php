@@ -27,8 +27,14 @@
     <main>
 
     <article id='AboutUs'>
+      <div class="parallax"></div>
+
       <h2>About Us</h2>
-      <div style="height:1000px">
+      <!-- <div style="height:1000px"> -->
+      <p>After renovations, Lunardo Cinema is back open and better than ever. There are new seats:
+      The standard seats have been replaced and we have brand new reclinable first class seats.
+      </p>
+
 
       </div>
     </article>

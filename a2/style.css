@@ -170,6 +170,17 @@ footer > *{
   width:500px;
   height:500px;
 }
+.moviebox {
+  display: flex;
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
+}
+
+.moviebox > * {
+  padding: 10px;
+  flex: 1 100%;
+}
 
 .movie {
   display: flex;

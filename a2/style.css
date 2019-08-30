@@ -11,7 +11,7 @@ nav > *{
 
 main > *{
   font-family: 'Roboto', sans-serif;
-  background-color: aqua;
+  background-color: #1a1a1d;
   color: white;
 }
 
@@ -21,6 +21,7 @@ main > *{
   padding: 20px;
   opacity: 1;
   font-size: 50px;
+  background-color: white;
 }
 
 .logo{
@@ -107,14 +108,14 @@ th{
   padding-right: 35px;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: #FFFFFF;
+  background-color: #4e4e50;
 }
 
 .cell{
-  color: #000000;
-  background-color: #FFFFFF;
+  color: white;
+  background-color: #4e4e50;
   font-weight: bold;
-  font-size: 20px;
+  /* font-size: 20px; */
 }
 .wrapper1 {
   display: flex;
@@ -164,6 +165,11 @@ th{
     margin: 5px;
     font-size: 15px;
     font-weight: bold;
+}
+
+.footer {
+  background-color: #4e4e50;
+  color: white;
 }
 
 footer > *{
@@ -219,4 +225,16 @@ footer > *{
   .details{flex: 1; order: 2;}
   .movietitle{flex: 1; order: 1;}
   .movietimes{flex: 5; order: 2;}
+}
+
+body {
+  background-color: #4e4e50;
+}
+
+.poster {
+  background-color: #4e4e50;
+}
+
+.details {
+  background-color: #4e4e50;
 }

@@ -38,14 +38,14 @@
         first class seats now can recline so you can really lie back and experience the movie.
       </p>
       <div class="wrapper">
-        <img src="../../media/538.jpg" class="seat" alt="standard seat">
+        <img src="../../media/538.png" class="seat" alt="standard seat">
         <img src="../../media/Verona-Twin.png" class="seat" alt="first class seat">
       </div>
       <p>Our projection and sound systems have been upgraded with 3D Dolby Vision projection and
       Dolby Atmos sound for the ultimate cinema experience, which is only made better with some
       of our fresh made popcorn.</p>
       <p>For more information on 3D Dolby Vision projection and Dolby Atmos sound, please visit
-      https://www.dolby.com/us/en/cinema</p>
+      <a href="https://www.dolby.com/us/en/cinema">The Dolby Website</a></p>
 
 
       </div>
@@ -173,7 +173,7 @@
 
           <div class="details">
             <div class="movietitle">
-              <p>Hobbs & Shaw [M]</p>
+              <p>The Happy Prince [MA]</p>
             </div>
 
             <div class="movietimes">
@@ -256,7 +256,7 @@
 
     </main>
 
-    <footer>
+    <footer class="footer">
       <div><p>Sebastian LaCroix<br>
       lunardocinema@hotmail.com<br>
       (03) 9536 4931<br>

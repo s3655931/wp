@@ -94,6 +94,29 @@
 
     <article id='NowShowing'>
       <h2>Now Showing</h2>
+
+      <div class="moviebox">
+        <div class="movie">
+          <div class="poster">
+            <img src="../../media/endgame.jpeg">
+          </div>
+
+          <div class="details">
+            <div class="movietitle">
+              <p>Avengers Endgame [PG]</p>
+            </div>
+
+            <div class="movietimes">
+              <p> Time <br>
+              Time <br>
+              Time <br>
+              Time <br>
+              Time </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </article>
 
     <article id='Synopsis'>

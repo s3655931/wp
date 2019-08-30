@@ -105,7 +105,7 @@
       <div class="moviebox">
         <div class="movie">
           <div class="poster">
-            <img src="../../media/endgame.jpeg" width="200px" alt="avengers poster">
+            <img src="../../media/endgame.jpeg" width="200" alt="avengers poster">
           </div>
 
           <div class="details">
@@ -125,7 +125,7 @@
 
         <div class="movie1">
           <div class="poster">
-            <img src="../../media/top-end-wed.jpg" width="200px" alt="top end wedding poster">
+            <img src="../../media/top-end-wed.jpg" width="200" alt="top end wedding poster">
           </div>
 
           <div class="details">
@@ -146,7 +146,7 @@
       <div class="moviebox">
         <div class="movie">
           <div class="poster">
-            <img src="../../media/dumbo.jpg" width="200px" alt="dumbo poster">
+            <img src="../../media/dumbo.jpg" width="200" alt="dumbo poster">
           </div>
 
           <div class="details">
@@ -168,7 +168,7 @@
 
         <div class="movie1">
           <div class="poster">
-            <img src="../../media/happy-prince.jpg" width="200px" alt="the happy prince poster">
+            <img src="../../media/happy-prince.jpg" width="200" alt="the happy prince poster">
           </div>
 
           <div class="details">

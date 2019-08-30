@@ -107,33 +107,30 @@
             </div>
 
             <div class="movietimes">
-              <p> Monday 8:30pm <br>
-              Wednesday 4:30pm <br>
-              Wednesday 8:30pm <br>
-              Friday 8:30 pm <br>
-              Friday 10:30 pm <br>
-              Saturday 10:30 pm</p>
+              <p> Wednesday 9pm <br>
+              Thursday 9pm <br>
+              Friday 9pm<br>
+              Saturday 6pm<br>
+              Sunday 6pm</p>
             </div>
           </div>
         </div>
 
         <div class="movie1">
           <div class="poster">
-            <img src="../../media/lion-king.jpg" width="200px">
+            <img src="../../media/top-end-wed.jpg" width="200px">
           </div>
 
           <div class="details">
             <div class="movietitle">
-              <p>The Lion King [PG]</p>
+              <p>Top End Wedding [M]</p>
             </div>
 
             <div class="movietimes">
-              <p> Wednesday 5:30 pm<br>
-              Thursday 2:30 pm<br>
-              Thursday 5:30 pm<br>
-              Friday 10:30 am <br>
-              Friday 5:30 pm <br>
-              Saturday 5:30 pm</p>
+              <p> Monday 6pm<br>
+              Tuesday 6pm<br>
+              Saturday 3pm<br>
+              Sunday 3pm</p>
             </div>
           </div>
         </div>
@@ -142,28 +139,29 @@
       <div class="moviebox">
         <div class="movie">
           <div class="poster">
-            <img src="../../media/dogs-journey.jpg" width="200px">
+            <img src="../../media/dumbo.jpg" width="200px">
           </div>
 
           <div class="details">
             <div class="movietitle">
-              <p>A Dog's Journey [PG]</p>
+              <p>Dumbo [PG]</p>
             </div>
 
             <div class="movietimes">
-              <p> Monday 4:30pm <br>
-              Wednesday 4:30pm <br>
-              Wednesday 5:30pm <br>
-              Friday 6:30 pm <br>
-              Friday 8:30 pm <br>
-              Saturday 6:30 pm</p>
+              <p> Monday 12pm <br>
+              Tuesday 12pm <br>
+              Wednesday 6pm <br>
+              Thursday 6pm <br>
+              Friday 6pm <br>
+              Saturday 12pm<br>
+              Sunday 12pm</p>
             </div>
           </div>
         </div>
 
         <div class="movie1">
           <div class="poster">
-            <img src="../../media/hobs-shaw.jpg" width="200px">
+            <img src="../../media/happy-prince.jpg" width="200px">
           </div>
 
           <div class="details">
@@ -172,12 +170,11 @@
             </div>
 
             <div class="movietimes">
-              <p> Wednesday 9:30 pm<br>
-              Thursday 7:30 pm<br>
-              Thursday 9:30 pm<br>
-              Friday 7:30 pm <br>
-              Friday 9:30 pm <br>
-              Saturday 9:30 pm</p>
+              <p> Wednesday 12pm<br>
+              Thursday 12pm<br>
+              Friday 12pm <br>
+              Saturday 9pm<br>
+              Sunday 9pm</p>
             </div>
           </div>
         </div>

@@ -1,6 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Almendra&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
+article{
+  padding: 2rem;
+}
+
+body {
+  background-color: #4e4e50;
+}
+
+footer > *{
+  font-family: 'Roboto', sans-serif;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -15,6 +27,69 @@ main > *{
   color: white;
 }
 
+table{
+      border-collapse: collapse;
+}
+
+td{
+  border:2px solid #000000;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+td:nth-child(2)
+{
+  display: none;
+}
+
+th{
+  border:2px solid #000000;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #4e4e50;
+}
+
+#Avengers_Synopsis{
+  display: none;
+}
+
+#Wedding_Synopsis{
+  display: none;
+}
+
+#Dumbo_Synopsis{
+  display: none;
+}
+
+#Prince_Synopsis{
+  display: none;
+}
+
+.bookNow{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.cell{
+  color: white;
+  background-color: #4e4e50;
+  font-weight: bold;
+  /* font-size: 20px; */
+}
+
+.details {
+  background-color: #4e4e50;
+}
+
+.footer {
+  background-color: #4e4e50;
+  color: white;
+}
+
 .header  {
   font-family: 'Almendra', serif;
   text-align: center;
@@ -22,6 +97,10 @@ main > *{
   opacity: 1;
   font-size: 50px;
   background-color: white;
+}
+
+.hiddencell{
+  display: none;
 }
 
 .logo{
@@ -43,17 +122,16 @@ main > *{
   background-size: cover;
 }
 
-@media (min-height: 300px) {
-  nav {
-    position: sticky;
-    top: 0;
-  }
+.poster {
+  background-color: #4e4e50;
 }
 
-article{
-  padding: 2rem;
+.seat {
+  margin:0 auto;
+  text-align:center;
+  width:500px;
+  height:500px;
 }
-
 
 .topnav {
   background-color: #333;
@@ -81,79 +159,11 @@ article{
   .topnav a { width: calc(100% / 3); height:calc(100% / 3);}
 }
 
-.wrapper{
-  margin:0 auto;
-  text-align:center;
-}
-table{
-      border-collapse: collapse;
-}
-
-td{
-  border:2px solid #000000;
-  padding-left: 35px;
-  padding-right: 35px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-td:nth-child(2)
-{
-  display: none;
-}
-
-th{
-  border:2px solid #000000;
-  padding-left: 35px;
-  padding-right: 35px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-color: #4e4e50;
-}
-
-.cell{
-  color: white;
-  background-color: #4e4e50;
-  font-weight: bold;
-  /* font-size: 20px; */
-}
-.wrapper1 {
-  display: flex;
-  flex-flow: row wrap;
-  font-weight: bold;
-  text-align: center;
-}
-
-.wrapper1 > * {
-  padding: 10px;
-  flex: 1 100%;
-}
-
-.hiddencell{
-  display: none;
-}
-
-@media all and (min-width: 600px) {
-/*  .title { order: 1;  flex: 1; border-style: solid;}
-  .midSec {order: 2; flex: 1; border-style: solid;}
-  .plot {flex: 1; border-style: solid;}
-  .vid {flex: 1; border-style: solid;}
-  .makBook {flex: 1; border-style: solid;}*/
-}
-
-@media all and (min-width: 800px) {
-  .midSec { flex: 1; order: 1;}
-  .title { order: 1;}
-  .plot { flex: 4; order: 2;}
-  .vid { flex: 1; order: 2;}
-  .makBook  { display: flex; flex-flow: row wrap;}
-  .bookNow { flex: 1; order: 1; flex-direction: row;}
-  .tRowBook { flex: 3; order: 2; flex-direction: row;}
-}
-
-.bookNow{
-  font-size: 15px;
-  font-weight: bold;
+@media (min-height: 300px) {
+  nav {
+    position: sticky;
+    top: 0;
+  }
 }
 
 .tRowBook > input{
@@ -167,21 +177,12 @@ th{
     font-weight: bold;
 }
 
-.footer {
-  background-color: #4e4e50;
-  color: white;
-}
 
-footer > *{
-  font-family: 'Roboto', sans-serif;
-}
 
-.seat {
-  margin:0 auto;
-  text-align:center;
-  width:500px;
-  height:500px;
-}
+/* Flexbox Style */
+
+
+
 .moviebox {
   display: flex;
   flex-flow: row wrap;
@@ -227,14 +228,47 @@ footer > *{
   .movietimes{flex: 5; order: 2;}
 }
 
-body {
-  background-color: #4e4e50;
+.wrapper{
+  margin:0 auto;
+  text-align:center;
 }
 
-.poster {
-  background-color: #4e4e50;
+.wrapper1 {
+  display: flex;
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
 }
 
-.details {
-  background-color: #4e4e50;
+.wrapper1 > * {
+  padding: 10px;
+  flex: 1 100%;
+}
+
+.midSec{
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.vid{
+  flex: 1 100%;
+}
+
+@media all and (min-width: 600px) {
+/*  .title { order: 1;  flex: 1; border-style: solid;}
+  .midSec {order: 2; flex: 1; border-style: solid;}
+  .plot {flex: 1; border-style: solid;}
+  .vid {flex: 1; border-style: solid;}
+  .makBook {flex: 1; border-style: solid;}*/
+}
+
+@media all and (min-width: 800px) {
+  .wrapper1{flex:1; order:1;}
+  .midSec { flex: 1; order: 1;}
+  .title { order: 1;}
+  .plot { flex: 4; order: 2;}
+  .vid { flex: 1; order: 2;}
+  .makBook  { display: flex; flex-flow: row wrap;}
+  .bookNow { flex: 1; order: 1; flex-direction: row;}
+  .tRowBook { flex: 3; order: 2; flex-direction: row;}
 }

@@ -187,7 +187,9 @@
 
     </article>
 
-    <article id='Synopsis'>
+    <!-- Synopsis Area -->
+    <!-- Avengers -->
+    <article id='Avengers_Synopsis'>
       <h2>Synopsis</h2>
       <div class="wrapper1">
         <div class="midSec">
@@ -245,6 +247,183 @@
         </aside>
       </aside>
     </article>
+
+    <!-- Top End Wedding -->
+    <article id='Wedding_Synopsis'>
+      <h2>Synopsis</h2>
+      <div class="wrapper1">
+        <div class="midSec">
+          <header class="title">Top End Wedding [M]</header>
+          <aside class="plot">
+            <p style="height:200px; text-align:left;">Lauren and Ned are engaged,
+              they are in love, and they have just ten days to find Lauren's
+              mother who has gone AWOL somewhere in the remote far north of
+              Australia, reunite her parents and pull off their dream wedding.
+            </p>
+            <!-- Synopsis source:https://www.imdb.com/title/tt7555072/ -->
+          </aside>
+        </div>
+        <iframe class="vid" width="560" height="315" src="https://www.youtube.com/embed/uoDBvGF9pPU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <aside class="makBook">
+        <p class="bookNow">Make a Booking:</p>
+        <aside class="tRowBook">
+          <input class="hiddencell" type="submit" value="Monday - 12pm">
+          <input class="hiddencell" type="submit" value="Monday - 3pm">
+          <input class="hiddencell" type="submit" value="Monday - 6pm">
+          <input class="hiddencell" type="submit" value="Monday - 9pm">
+
+          <input class="hiddencell" type="submit" value="Tuesday - 12pm">
+          <input class="hiddencell" type="submit" value="Tuesday - 3pm">
+          <input class="hiddencell" type="submit" value="Tuesday - 6pm">
+          <input class="hiddencell" type="submit" value="Tuesday - 9pm">
+
+          <input class="hiddencell" type="submit" value="Wednesday - 12pm">
+          <input class="hiddencell" type="submit" value="Wednesday - 3pm">
+          <input class="hiddencell" type="submit" value="Wednesday - 6pm">
+          <input type="submit" value="Wednesday - 9pm">
+
+          <input class="hiddencell" type="submit" value="Thursday - 12pm">
+          <input class="hiddencell" type="submit" value="Thursday - 3pm">
+          <input class="hiddencell" type="submit" value="Thursday - 6pm">
+          <input type="submit" value="Thursday - 9pm">
+
+          <input class="hiddencell" type="submit" value="Friday - 12pm">
+          <input class="hiddencell" type="submit" value="Friday - 3pm">
+          <input class="hiddencell" type="submit" value="Friday - 6pm">
+          <input type="submit" value="Friday - 9pm">
+
+          <input class="hiddencell" type="submit" value="Saturday - 12pm">
+          <input class="hiddencell" type="submit" value="Saturday - 3pm">
+          <input type="submit" value="Saturday - 6pm">
+          <input class="hiddencell" type="submit" value="Saturday - 9pm">
+
+          <input class="hiddencell" type="submit" value="Sunday - 12pm">
+          <input class="hiddencell" type="submit" value="Sunday - 3pm">
+          <input type="submit" value="Sunday - 6pm">
+          <input class="hiddencell" type="submit" value="Sunday - 9pm">
+        </aside>
+      </aside>
+    </article>
+
+
+    <!-- Dumbo -->
+    <article id='Dumbo_Synopsis'>
+      <h2>Synopsis</h2>
+      <div class="wrapper1">
+        <div class="midSec">
+          <header class="title">Dumbo [PG]</header>
+          <aside class="plot">
+            <p style="height:200px; text-align:left;">A young elephant, whose
+              oversized ears enable him to fly, helps save a struggling circus,
+              but when the circus plans a new venture, Dumbo and his friends
+              discover dark secrets beneath its shiny veneer.
+            </p>
+            <!-- Synopsis source:https://www.imdb.com/title/tt3861390/?ref_=ttpl_pl_tt -->
+          </aside>
+        </div>
+        <iframe class="vid" width="560" height="315" src="https://www.youtube.com/embed/7NiYVoqBt-8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <aside class="makBook">
+        <p class="bookNow">Make a Booking:</p>
+        <aside class="tRowBook">
+          <input class="hiddencell" type="submit" value="Monday - 12pm">
+          <input class="hiddencell" type="submit" value="Monday - 3pm">
+          <input class="hiddencell" type="submit" value="Monday - 6pm">
+          <input class="hiddencell" type="submit" value="Monday - 9pm">
+
+          <input class="hiddencell" type="submit" value="Tuesday - 12pm">
+          <input class="hiddencell" type="submit" value="Tuesday - 3pm">
+          <input class="hiddencell" type="submit" value="Tuesday - 6pm">
+          <input class="hiddencell" type="submit" value="Tuesday - 9pm">
+
+          <input class="hiddencell" type="submit" value="Wednesday - 12pm">
+          <input class="hiddencell" type="submit" value="Wednesday - 3pm">
+          <input class="hiddencell" type="submit" value="Wednesday - 6pm">
+          <input type="submit" value="Wednesday - 9pm">
+
+          <input class="hiddencell" type="submit" value="Thursday - 12pm">
+          <input class="hiddencell" type="submit" value="Thursday - 3pm">
+          <input class="hiddencell" type="submit" value="Thursday - 6pm">
+          <input type="submit" value="Thursday - 9pm">
+
+          <input class="hiddencell" type="submit" value="Friday - 12pm">
+          <input class="hiddencell" type="submit" value="Friday - 3pm">
+          <input class="hiddencell" type="submit" value="Friday - 6pm">
+          <input type="submit" value="Friday - 9pm">
+
+          <input class="hiddencell" type="submit" value="Saturday - 12pm">
+          <input class="hiddencell" type="submit" value="Saturday - 3pm">
+          <input type="submit" value="Saturday - 6pm">
+          <input class="hiddencell" type="submit" value="Saturday - 9pm">
+
+          <input class="hiddencell" type="submit" value="Sunday - 12pm">
+          <input class="hiddencell" type="submit" value="Sunday - 3pm">
+          <input type="submit" value="Sunday - 6pm">
+          <input class="hiddencell" type="submit" value="Sunday - 9pm">
+        </aside>
+      </aside>
+    </article>
+
+
+    <!-- The Happy Prince -->
+    <article id='Prince_Synopsis'>
+      <h2>Synopsis</h2>
+      <div class="wrapper1">
+        <div class="midSec">
+          <header class="title">The Happy Prince [MA]</header>
+          <aside class="plot">
+            <p style="height:200px; text-align:left;">The untold story of the
+              last days in the tragic times of Oscar Wilde, a person who
+              observes his own failure with ironic distance and regards the
+              difficulties that beset his life with detachment and humor.
+            </p>
+            <!-- Synopsis source:https://www.imdb.com/title/tt2404639/ -->
+          </aside>
+        </div>
+        <iframe class="vid" width="560" height="315" src="https://www.youtube.com/embed/4HmN9r1Fcr8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <aside class="makBook">
+        <p class="bookNow">Make a Booking:</p>
+        <aside class="tRowBook">
+          <input class="hiddencell" type="submit" value="Monday - 12pm">
+          <input class="hiddencell" type="submit" value="Monday - 3pm">
+          <input class="hiddencell" type="submit" value="Monday - 6pm">
+          <input class="hiddencell" type="submit" value="Monday - 9pm">
+
+          <input class="hiddencell" type="submit" value="Tuesday - 12pm">
+          <input class="hiddencell" type="submit" value="Tuesday - 3pm">
+          <input class="hiddencell" type="submit" value="Tuesday - 6pm">
+          <input class="hiddencell" type="submit" value="Tuesday - 9pm">
+
+          <input class="hiddencell" type="submit" value="Wednesday - 12pm">
+          <input class="hiddencell" type="submit" value="Wednesday - 3pm">
+          <input class="hiddencell" type="submit" value="Wednesday - 6pm">
+          <input type="submit" value="Wednesday - 9pm">
+
+          <input class="hiddencell" type="submit" value="Thursday - 12pm">
+          <input class="hiddencell" type="submit" value="Thursday - 3pm">
+          <input class="hiddencell" type="submit" value="Thursday - 6pm">
+          <input type="submit" value="Thursday - 9pm">
+
+          <input class="hiddencell" type="submit" value="Friday - 12pm">
+          <input class="hiddencell" type="submit" value="Friday - 3pm">
+          <input class="hiddencell" type="submit" value="Friday - 6pm">
+          <input type="submit" value="Friday - 9pm">
+
+          <input class="hiddencell" type="submit" value="Saturday - 12pm">
+          <input class="hiddencell" type="submit" value="Saturday - 3pm">
+          <input type="submit" value="Saturday - 6pm">
+          <input class="hiddencell" type="submit" value="Saturday - 9pm">
+
+          <input class="hiddencell" type="submit" value="Sunday - 12pm">
+          <input class="hiddencell" type="submit" value="Sunday - 3pm">
+          <input type="submit" value="Sunday - 6pm">
+          <input class="hiddencell" type="submit" value="Sunday - 9pm">
+        </aside>
+      </aside>
+    </article>
+
 
     <article id='Booking'>
       <h2>Booking</h2>

@@ -427,8 +427,57 @@
 
     <article id='Booking'>
       <h2>Booking</h2>
-        <!-- Creative Commons image sourced from https://pixabay.com/en/maintenance-under-construction-2422173/ and used for educational purposes only -->
-          <img src='../../media/website-under-construction.png' alt='Website Under Construction' />
+      <form action="https://titan.csit.rmit.edu.au/~e54061/wp/lunardo-formtest.php" method="post">
+        <input type="hidden" name="movie[id]" value="">
+        <input type="hidden" name="movie[day]" value="">
+        <input type="hidden" name="movie[hour]" value="">
+        <select name="seats[STA]">
+          <option value="">""</option>
+          <option value="">""</option>
+          <option value="">""</option>
+        </select>
+        <select name="seats[STP]">
+          <option value="">""</option>
+          <option value="">""</option>
+          <option value="">""</option>
+        </select>
+
+        <select name="seats[STC]">
+          <option value="">""</option>
+          <option value="">""</option>
+          <option value="">""</option>
+        </select>
+
+        <select name="seats[FCA]">
+          <option value="">""</option>
+          <option value="">""</option>
+          <option value="">""</option>
+        </select>
+
+        <select name="seats[FCP]">
+          <option value="">""</option>
+          <option value="">""</option>
+          <option value="">""</option>
+        </select>
+
+        <select name="seats[FCC]">
+          <option value="">""</option>
+          <option value="">""</option>
+          <option value="">""</option>
+        </select>
+
+        <input type="text" name="cust[name]" value="">
+
+        <input type="email" name="cust[email]" value="">
+
+        <input type="tel" name="cust[mobile]" value="">
+
+        <input type="text" name="cust[card]" value="">
+
+        <input type="month" name="cust[expiry]" value="">
+
+        <input type="submit" name="order" value="">
+      </form>
     </article>
 
     </main>

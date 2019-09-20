@@ -181,8 +181,6 @@ th{
 
 /* Flexbox Style */
 
-
-
 .moviebox {
   display: flex;
   flex-flow: row wrap;
@@ -271,4 +269,28 @@ th{
   .makBook  { display: flex; flex-flow: row wrap;}
   .bookNow { flex: 1; order: 1; flex-direction: row;}
   .tRowBook { flex: 3; order: 2; flex-direction: row;}
+}
+
+.bookForm {
+  display: flex;
+  flex-flow: row wrap;
+}
+.bookCol{
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.bookCol > *{
+  flex: 1 100%;
+}
+
+.standard{
+  flex: 1 100%;
+}
+
+.fClass{
+  flex: 1 100%;
+}
+@media all and (min-wdth: 800px){
+
 }

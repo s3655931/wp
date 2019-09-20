@@ -427,45 +427,52 @@
 
     <article id='Booking'>
       <h2>Booking</h2>
-      <form action="https://titan.csit.rmit.edu.au/~e54061/wp/lunardo-formtest.php" method="post">
-        <input type="hidden" name="movie[id]" value="">
-        <input type="hidden" name="movie[day]" value="">
-        <input type="hidden" name="movie[hour]" value="">
-        <select name="seats[STA]">
-          <option value="">""</option>
-          <option value="">""</option>
-          <option value="">""</option>
-        </select>
-        <select name="seats[STP]">
-          <option value="">""</option>
-          <option value="">""</option>
-          <option value="">""</option>
-        </select>
-
-        <select name="seats[STC]">
-          <option value="">""</option>
-          <option value="">""</option>
-          <option value="">""</option>
-        </select>
-
-        <select name="seats[FCA]">
-          <option value="">""</option>
-          <option value="">""</option>
-          <option value="">""</option>
-        </select>
-
-        <select name="seats[FCP]">
-          <option value="">""</option>
-          <option value="">""</option>
-          <option value="">""</option>
-        </select>
-
-        <select name="seats[FCC]">
-          <option value="">""</option>
-          <option value="">""</option>
-          <option value="">""</option>
-        </select>
-
+      <form class="bookForm" action="https://titan.csit.rmit.edu.au/~e54061/wp/lunardo-formtest.php" method="post">
+        <h3 id="bookTitle">Movie Title - Day - Time<h3>
+          <div class="bookForm">
+        <div class="bookCol">
+          <input type="hidden" name="movie[id]" value="">
+          <input type="hidden" name="movie[day]" value="">
+          <input type="hidden" name="movie[hour]" value="">
+          <fieldset class="standard">
+            <legend>Standard</legend>
+          <select name="seats[STA]">
+            <option value="">""</option>
+            <option value="">""</option>
+            <option value="">""</option>
+          </select>
+          <select name="seats[STP]">
+            <option value="">""</option>
+            <option value="">""</option>
+            <option value="">""</option>
+          </select>
+          <select name="seats[STC]">
+            <option value="">""</option>
+            <option value="">""</option>
+            <option value="">""</option>
+          </select>
+        </fieldset>
+        <fieldset class="fClass">
+          <legend>First Class</legend>
+          <select name="seats[FCA]">
+            <option value="">""</option>
+            <option value="">""</option>
+            <option value="">""</option>
+          </select>
+          <select name="seats[FCP]">
+            <option value="">""</option>
+            <option value="">""</option>
+            <option value="">""</option>
+          </select>
+          <select name="seats[FCC]">
+            <option value="">""</option>
+            <option value="">""</option>
+            <option value="">""</option>
+          </select>
+        </fieldset>
+        <!-- Total here -->
+      </div>
+      <div class="bookCol">
         <input type="text" name="cust[name]" value="">
 
         <input type="email" name="cust[email]" value="">
@@ -476,7 +483,9 @@
 
         <input type="month" name="cust[expiry]" value="">
 
-        <input type="submit" name="order" value="">
+        <input type="submit" name="order" value="Order">
+      </div>
+    </div>
       </form>
     </article>
 

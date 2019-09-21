@@ -429,63 +429,83 @@
       <h2>Booking</h2>
       <form class="bookForm" action="https://titan.csit.rmit.edu.au/~e54061/wp/lunardo-formtest.php" method="post">
         <h3 id="bookTitle">Movie Title - Day - Time<h3>
-          <div class="bookForm">
-        <div class="bookCol">
-          <input type="hidden" name="movie[id]" value="">
-          <input type="hidden" name="movie[day]" value="">
-          <input type="hidden" name="movie[hour]" value="">
-          <fieldset class="standard">
-            <legend>Standard</legend>
-          <select name="seats[STA]">
-            <option value="">""</option>
-            <option value="">""</option>
-            <option value="">""</option>
-          </select>
-          <select name="seats[STP]">
-            <option value="">""</option>
-            <option value="">""</option>
-            <option value="">""</option>
-          </select>
-          <select name="seats[STC]">
-            <option value="">""</option>
-            <option value="">""</option>
-            <option value="">""</option>
-          </select>
-        </fieldset>
-        <fieldset class="fClass">
-          <legend>First Class</legend>
-          <select name="seats[FCA]">
-            <option value="">""</option>
-            <option value="">""</option>
-            <option value="">""</option>
-          </select>
-          <select name="seats[FCP]">
-            <option value="">""</option>
-            <option value="">""</option>
-            <option value="">""</option>
-          </select>
-          <select name="seats[FCC]">
-            <option value="">""</option>
-            <option value="">""</option>
-            <option value="">""</option>
-          </select>
-        </fieldset>
-        <!-- Total here -->
-      </div>
-      <div class="bookCol">
-        <input type="text" name="cust[name]" value="">
+        <div class="bookRow">
+          <div class="adjustCon">
+          </div>
+          <div class="bookCol">
+              <input type="hidden" name="movie[id]" value="">
+              <input type="hidden" name="movie[day]" value="">
+              <input type="hidden" name="movie[hour]" value="">
+              <fieldset class="standard">
+                <legend>Standard</legend>
+                  Adults: <select name="seats[STA]">
+                    <option value="">""</option>
+                    <option value="">""</option>
+                    <option value="">""</option>
+                  </select><br>
+                  Concession<select name="seats[STP]">
+                    <option value="">""</option>
+                    <option value="">""</option>
+                    <option value="">""</option>
+                  </select><br>
+                  Children<select name="seats[STC]">
+                    <option value="">""</option>
+                    <option value="">""</option>
+                    <option value="">""</option>
+                  </select>
+              </fieldset>
+              <fieldset class="fClass">
+                <legend>First Class</legend>
+                  Adults<select name="seats[FCA]">
+                    <option value="">""</option>
+                    <option value="">""</option>
+                    <option value="">""</option>
+                  </select><br>
+                  Concession<select name="seats[FCP]">
+                    <option value="">""</option>
+                    <option value="">""</option>
+                    <option value="">""</option>
+                  </select><br>
+                  Children<select name="seats[FCC]">
+                    <option value="">""</option>
+                    <option value="">""</option>
+                    <option value="">""</option>
+                  </select>
+              </fieldset>
+            <div>
+              Total $
+            </div>
+          </div>
 
-        <input type="email" name="cust[email]" value="">
+          <div class="fieldCol">
+              <div class="flexCon">
+                <p>Name:</p> <input type="text" name="cust[name]" value="">
+              </div>
+              <!-- <br> -->
+              <div class="flexCon">
+                <p>Email:</p><input type="email" name="cust[email]" value="">
+              </div>
+              <!-- <br> -->
+              <div class="flexCon">
+                <p>Mobile:</p> <input type="tel" name="cust[mobile]" value="">
+              </div>
+              <!-- <br> -->
+              <div class="flexCon">
+                <p>Credit Card:</p>  <input type="text" name="cust[card]" value="">
+              </div>
+              <!-- <br> -->
+              <div class="flexCon">
+                <p>Expiry:</p>  <input type="month" name="cust[expiry]" value="">
+              </div>
+              <!-- <br> -->
+              <div class="flexCon">
+              <input type="submit" name="order" value="Order">
+            </div>
+          </div>
+            <div class="adjustCon">
+            </div>
+          </div>
 
-        <input type="tel" name="cust[mobile]" value="">
-
-        <input type="text" name="cust[card]" value="">
-
-        <input type="month" name="cust[expiry]" value="">
-
-        <input type="submit" name="order" value="Order">
-      </div>
-    </div>
       </form>
     </article>
 

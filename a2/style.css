@@ -273,24 +273,79 @@ th{
 
 .bookForm {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column;
+  border-style: solid;
+  padding: 10px;
+  width:60%;
+  margin:0 auto;
+  /* text-align:center; */
 }
-.bookCol{
+.bookRow{
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: row;
+  /* border-style: dotted; */
+  flex: 1 100%;
 }
 
-.bookCol > *{
+.bookRow > * {
+  padding: 10px;
   flex: 1 100%;
+}
+
+.bookCol{
+  display: flex;
+  flex-flow: column;
+  /* border-style: double; */
+  flex: 2;
+}
+
+.bookCol > * {
+  padding: 10px;
+  flex: 1 100%;
+
+}
+
+.flexCon{
+  /* justify-content: center;
+  align-items: center; */
+  display: flex;
 }
 
 .standard{
   flex: 1 100%;
+  padding: 10px;
 }
 
 .fClass{
   flex: 1 100%;
+  padding: 10px;
 }
-@media all and (min-wdth: 800px){
 
+.adjustCon{
+  flex: 1;
 }
+
+.fieldCol{
+  display: flex;
+  flex-flow: column;
+  /* border-style: double; */
+  flex: 2;
+}
+
+.fieldCol > * {
+  padding: 10px;
+  flex: 1 100%;
+  justify-content: flex-end;
+}
+
+.flexCon > p{
+  margin: auto;
+}
+
+fieldset > *{
+  margin: auto;
+}
+
+/* @media all and (min-wdth: 800px){
+
+} */

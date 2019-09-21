@@ -302,7 +302,6 @@ th{
 .bookCol > * {
   padding: 10px;
   flex: 1 100%;
-
 }
 
 .flexCon{
@@ -342,9 +341,6 @@ th{
   margin: auto;
 }
 
-fieldset > *{
-  margin: auto;
-}
 
 /* @media all and (min-wdth: 800px){
 

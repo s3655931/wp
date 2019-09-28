@@ -304,43 +304,6 @@ th{
   flex: 1 100%;
 }
 
-.flexCon{
-  /* justify-content: center;
-  align-items: center; */
-  display: flex;
-}
-
-.standard{
-  flex: 1 100%;
-  padding: 10px;
-}
-
-.fClass{
-  flex: 1 100%;
-  padding: 10px;
-}
-
-.adjustCon{
-  flex: 1;
-}
-
-.fieldCol{
-  display: flex;
-  flex-flow: column;
-  /* border-style: double; */
-  flex: 2;
-}
-
-.fieldCol > * {
-  padding: 10px;
-  flex: 1 100%;
-  justify-content: flex-end;
-}
-
-.flexCon > p{
-  margin: auto;
-}
-
 
 /* @media all and (min-wdth: 800px){
 

@@ -1,0 +1,347 @@
+
+rt url('https://fonts.googleapis.com/css?family=Almendra&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+article{
+	  padding: 2rem;
+}
+
+body {
+	  background-color: #4e4e50;
+}
+
+footer > *{
+	  font-family: 'Roboto', sans-serif;
+}
+
+html {
+	  scroll-behavior: smooth;
+}
+
+nav > *{
+	  font-family: 'Roboto', sans-serif;
+}
+
+main > *{
+	  font-family: 'Roboto', sans-serif;
+	    background-color: #1a1a1d;
+		  color: white;
+}
+
+table{
+	      border-collapse: collapse;
+}
+
+td{
+	  border:2px solid #000000;
+	    padding-left: 35px;
+		  padding-right: 35px;
+		    padding-top: 10px;
+			  padding-bottom: 10px;
+}
+
+td:nth-child(2)
+{
+	  display: none;
+}
+
+th{
+	  border:2px solid #000000;
+	    padding-left: 35px;
+		  padding-right: 35px;
+		    padding-top: 10px;
+			  padding-bottom: 10px;
+			    background-color: #4e4e50;
+}
+
+#Avengers_Synopsis{
+  display: none;
+}
+
+#Wedding_Synopsis{
+  display: none;
+}
+
+#Dumbo_Synopsis{
+  display: none;
+}
+
+#Prince_Synopsis{
+  display: none;
+}
+
+.bookNow{
+	  font-size: 15px;
+	    font-weight: bold;
+}
+
+.cell{
+	  color: white;
+	    background-color: #4e4e50;
+		  font-weight: bold;
+		    /* font-size: 20px; */
+}
+
+.details {
+	  background-color: #4e4e50;
+}
+
+.footer {
+	  background-color: #4e4e50;
+	    color: white;
+}
+
+.header  {
+	  font-family: 'Almendra', serif;
+	    text-align: center;
+		  padding: 20px;
+		    opacity: 1;
+			  font-size: 50px;
+			    background-color: white;
+}
+
+.hiddencell{
+	  display: none;
+}
+
+.logo{
+	  height: 150px;
+	    width: 150px;
+}
+
+.parallax {
+	  /* The image used */
+	    background-image: url("../../media/1.jpg");
+
+		  /* Full height */
+		    height: 460px;
+
+			  /* Create the parallax scrolling effect */
+			    background-attachment: fixed;
+				  background-position: center;
+				    background-repeat: no-repeat;
+					  background-size: cover;
+}
+
+.poster {
+	  background-color: #4e4e50;
+}
+
+.seat {
+	  margin:0 auto;
+	    text-align:center;
+		  width:500px;
+		    height:500px;
+}
+
+.topnav {
+	  background-color: #333;
+	    overflow: hidden;
+
+}
+
+.topnav a {
+	  float: left;
+	    color: #f2f2f2;
+		  text-align: center;
+		    text-decoration: none;
+			  font-size: 17px;
+			    padding: 15px 0px;
+				  height:calc(100% / 1);
+				    width:calc(100% / 1);
+}
+
+.topnav a:hover {
+	  background-color: #ddd;
+	    color: black;
+}
+
+@media only screen and (min-width: 800px) {
+	  .topnav a { width: calc(100% / 3); height:calc(100% / 3);}
+}
+
+@media (min-height: 300px) {
+	  nav {
+		      position: sticky;
+			      top: 0;
+				    }
+}
+
+.tRowBook > input{
+	    background-color: #FFFFFF;
+		    border-radius: 5px;
+			    text-decoration: none;
+				    border-color: #000000;
+					    padding: 5px;
+						    margin: 5px;
+							    font-size: 15px;
+								    font-weight: bold;
+}
+
+
+
+/* Flexbox Style */
+
+.moviebox {
+	  display: flex;
+	    flex-flow: row wrap;
+		  font-weight: bold;
+		    text-align: center;
+}
+
+.moviebox > * {
+	  padding: 10px;
+	    flex: 1 100%;
+}
+
+.movie {
+	  display: flex;
+	    flex-flow: row wrap;
+		  font-weight: bold;
+		    text-align: center;
+}
+
+.movie > * {
+	  padding: 10px;
+	    flex: 1 100%;
+}
+
+.movie1 {
+	  display: flex;
+	    flex-flow: row wrap;
+		  font-weight: bold;
+		    text-align: center;
+}
+
+.movie1 > * {
+	  padding: 10px;
+	    flex: 1 100%;
+}
+
+@media all and (min-width: 800px) {
+	  .movie{flex: 1; order: 1;}
+	    .movie1{flex: 1; order: 2;}
+		  .poster{flex: 1; order: 1;}
+		    .details{flex: 1; order: 2;}
+			  .movietitle{flex: 1; order: 1;}
+			    .movietimes{flex: 5; order: 2;}
+}
+
+.wrapper{
+	  margin:0 auto;
+	    text-align:center;
+}
+
+.wrapper1 {
+	  display: flex;
+	    flex-flow: row wrap;
+		  font-weight: bold;
+		    text-align: center;
+}
+
+.wrapper1 > * {
+	  padding: 10px;
+	    flex: 1 100%;
+}
+
+.midSec{
+	  display: flex;
+	    flex-flow: column wrap;
+}
+
+.vid{
+	  flex: 1 100%;
+}
+
+@media all and (min-width: 600px) {
+	/*  .title { order: 1;  flex: 1; border-style: solid;}
+	  .midSec {order: 2; flex: 1; border-style: solid;}
+	    .plot {flex: 1; border-style: solid;}
+		  .vid {flex: 1; border-style: solid;}
+		    .makBook {flex: 1; border-style: solid;}*/
+}
+
+@media all and (min-width: 800px) {
+	  .wrapper1{flex:1; order:1;}
+	    .midSec { flex: 1; order: 1;}
+		  .title { order: 1;}
+		    .plot { flex: 4; order: 2;}
+			  .vid { flex: 1; order: 2;}
+			    .makBook  { display: flex; flex-flow: row wrap;}
+				  .bookNow { flex: 1; order: 1; flex-direction: row;}
+				    .tRowBook { flex: 3; order: 2; flex-direction: row;}
+}
+
+.bookForm {
+	  display: flex;
+	    flex-flow: column;
+		  border-style: solid;
+		    padding: 10px;
+			  width:60%;
+			    margin:0 auto;
+				  /* text-align:center; */
+}
+.bookRow{
+	  display: flex;
+	    flex-flow: row;
+		  /* border-style: dotted; */
+		    flex: 1 100%;
+}
+
+.bookRow > * {
+	  padding: 10px;
+	    flex: 1 100%;
+}
+
+.bookCol{
+	  display: flex;
+	    flex-flow: column;
+		  /* border-style: double; */
+		    flex: 2;
+}
+
+.bookCol > * {
+	  padding: 10px;
+	    flex: 1 100%;
+}
+
+.flexCon{
+	  /* justify-content: center;
+	    align-items: center; */
+		  display: flex;
+}
+
+.standard{
+	  flex: 1 100%;
+	    padding: 10px;
+}
+
+.fClass{
+	  flex: 1 100%;
+	    padding: 10px;
+}
+
+.adjustCon{
+	  flex: 1;
+}
+
+.fieldCol{
+	  display: flex;
+	    flex-flow: column;
+		  /* border-style: double; */
+		    flex: 2;
+}
+
+.fieldCol > * {
+	  padding: 10px;
+	    flex: 1 100%;
+		  justify-content: flex-end;
+}
+
+.flexCon > p{
+	  margin: auto;
+}
+
+
+/* @media all and (min-wdth: 800px){
+} */

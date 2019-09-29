@@ -435,47 +435,47 @@
           <div class="adjustCon">
           </div>
           <div class="bookCol">
-              <input type="hidden" name="movie[id]" value="">
-              <input type="hidden" name="movie[day]" value="">
-              <input type="hidden" name="movie[hour]" value="">
+              <input type="hidden" name="movie[id]" id="movie[id]" value="">
+              <input type="hidden" name="movie[day]" id="movie[day]" value="">
+              <input type="hidden" name="movie[hour]" id="movie[hour]" value="">
               <fieldset class="standard">
                 <legend>Standard</legend>
-                  Adults: <select name="seats[STA]">
-                    <option value="">""</option>
-                    <option value="">""</option>
-                    <option value="">""</option>
+                  Adults: <select name="seats[STA]" id="seats[STA]" oninput="calculateTotal()">
+                    <option value="0"> </option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
                   </select><br>
-                  Concession<select name="seats[STP]">
-                    <option value="">""</option>
-                    <option value="">""</option>
-                    <option value="">""</option>
+                  Concession: <select name="seats[STP]" id="seats[STP]" oninput="calculateTotal()">
+                    <option value="0"> </option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
                   </select><br>
-                  Children<select name="seats[STC]">
-                    <option value="">""</option>
-                    <option value="">""</option>
-                    <option value="">""</option>
+                  Children: <select name="seats[STC]" id="seats[STC]" oninput="calculateTotal()">
+                    <option value="0"> </option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
                   </select>
               </fieldset>
               <fieldset class="fClass">
                 <legend>First Class</legend>
-                  Adults<select name="seats[FCA]">
-                    <option value="">""</option>
-                    <option value="">""</option>
-                    <option value="">""</option>
+                  Adults: <select name="seats[FCA]" id="seats[FCA]" oninput="calculateTotal()">
+                    <option value="0"> </option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
                   </select><br>
-                  Concession<select name="seats[FCP]">
-                    <option value="">""</option>
-                    <option value="">""</option>
-                    <option value="">""</option>
+                  Concession: <select name="seats[FCP]" id="seats[FCP]" oninput="calculateTotal()">
+                    <option value="0"> </option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
                   </select><br>
-                  Children<select name="seats[FCC]">
-                    <option value="">""</option>
-                    <option value="">""</option>
-                    <option value="">""</option>
+                  Children: <select name="seats[FCC]" id="seats[FCC]" oninput="calculateTotal()">
+                    <option value="0"> </option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
                   </select>
               </fieldset>
             <div>
-              Total $
+              Total $<p id='totalcost' style="display:inline">temp</p>
             </div>
           </div>
 

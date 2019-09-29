@@ -317,8 +317,6 @@
       <form class="bookForm" action="https://titan.csit.rmit.edu.au/~e54061/wp/lunardo-formtest.php" method="post">
         <h3 id="bookTitle">Movie Title - Day - Time</h3>
         <div class="bookRow">
-          <!-- <div class="adjustCon">
-          </div> -->
           <div class="bookCol">
               <input type="hidden" name="movie[id]" value="">
               <input type="hidden" name="movie[day]" value="">
@@ -416,29 +414,22 @@
               <div class="flexCon">
                 <p>Name:</p> <input type="text" name="cust[name]" value="">
               </div>
-              <!-- <br> -->
               <div class="flexCon">
                 <p>Email:</p><input type="email" name="cust[email]" value="">
               </div>
-              <!-- <br> -->
               <div class="flexCon">
                 <p>Mobile:</p> <input type="tel" name="cust[mobile]" value="">
               </div>
-              <!-- <br> -->
               <div class="flexCon">
                 <p>Credit Card:</p>  <input type="text" name="cust[card]" value="">
               </div>
-              <!-- <br> -->
               <div class="flexCon">
                 <p>Expiry:</p>  <input type="month" name="cust[expiry]" value="">
               </div>
-              <!-- <br> -->
               <div class="flexCon">
               <input type="submit" name="order" value="Order">
             </div>
           </div>
-          <!-- <div class="adjustCon">
-          </div> -->
           </div>
 
       </form>

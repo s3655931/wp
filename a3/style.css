@@ -279,7 +279,7 @@ nav a:hover,nav a.active {
   flex-flow: column;
   border-style: solid;
   padding: 10px;
-  width:60%;
+  width:30%;
   margin:0 auto;
   /* text-align:center; */
 }
@@ -308,8 +308,6 @@ nav a:hover,nav a.active {
 }
 
 .flexCon{
-	/* justify-content: center;
-	   align-items: center; */
 display: flex;
 }
 
@@ -348,13 +346,11 @@ margin: auto;
   padding: 2rem;
 }
 
-.credit{
-  margin: auto;
+
+.standard > select{
+  width: 30%;
 }
 
-.credit > p{
-  margin: -2px;
-}
 
 
  @media all and (max-width: 800px){

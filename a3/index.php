@@ -424,7 +424,7 @@
                 <p>Mobile:</p> <input id="tel" type="tel" name="cust[mobile]" value="" pattern="(\(04\)|04|\+614)( ?\d){8}" title="Incorrect phone number">
               </div>
               <div class="flexCon">
-                <p>Credit Card:</p>  <input id="credit" type="text" name="cust[card]" value="" pattern="( ?\d){14,19}" title="Incorrect credit card number">
+                <p>Credit Card:</p>  <input id="credit" type="text" name="cust[card]" value="" pattern="( ?\d){19}|( ?\d){14}" title="Incorrect credit card number">
               </div>
               <div class="flexCon">
                 <p>Expiry:</p>  <input id="date" type="month" name="cust[expiry]" value="">

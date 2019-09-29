@@ -103,7 +103,7 @@
       <h2>Now Showing</h2>
 
       <div class="moviebox">
-        <div class="movie">
+        <div class="movie" onclick="showsynopsis('Avengers_Synopsis')">
           <div class="poster">
             <img src="../../media/endgame.jpeg" width="200" alt="avengers poster">
           </div>

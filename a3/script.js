@@ -1,18 +1,38 @@
+var movie = ['', '', ''];
+var seats = [0, 0, 0, 0, 0, 0];
+var cust = ['', '', '', '', ''];
+
+var id = 0;
+var day = 1;
+var hour = 2;
+
+var STA = 0;
+var STP = 1;
+var STC = 2;
+var FCA = 3;
+var FCP = 4;
+var FCC = 5;
+
+var name = 0;
+var email = 1;
+var mobile = 2;
+var card = 3;
+var expiry = 4;
+
 window.onscroll = function ()
 {
-  var articles = document.getElementsByTagName('main')[0].getElementsByTagName('article');
-  var navlinks = document.getElementsByTagName('nav')[0].getElementsByTagName('a');
-  var n = -1;
-  while(n<articles.length - 1 && articles[n+1].offsetTop <= window.scrollY + 10)
-  {
-    n++;
-  }
-  for(var a=0; a<navlinks.length; a++)
-  {
-    navlinks[a].classList.remove('active');
-  }
-
-  navlinks[n].classList.add('active');
+	var articles = document.getElementsByTagName('main')[0].getElementsByTagName('article');
+	var navlinks = document.getElementsByTagName('nav')[0].getElementsByTagName('a');
+	var n = -1;
+	while(n<articles.length - 1 && articles[n+1].offsetTop <= window.scrollY + 10)
+	{
+		n++;
+	}
+	for(var a=0; a<navlinks.length; a++)
+	{
+		navlinks[a].classList.remove('active');
+	}
+	navlinks[n].classList.add('active');
 }
 
 window.onload = function() {
@@ -32,6 +52,7 @@ function showsynopsis(tempid) {
 			item.style.display="none";
 		}
 	}
+
 }
 
 function calculateTotal() {
@@ -39,6 +60,15 @@ function calculateTotal() {
 	var total = 0;
 	var day = document.getElementById('movie[day]').value;
 	var time = document.getElementById('movie[hour]').value;
+
+
+	seats[STA] = Number(document.getElementById('seats[STA]').value);
+	seats[STP] = Number(document.getElementById('seats[STP]').value);
+	seats[STC] = Number(document.getElementById('seats[STC]').value);
+
+	seats[FCA] = Number(document.getElementById('seats[FCA]').value);
+	seats[FCP] = Number(document.getElementById('seats[FCP]').value); 
+	seats[FCC] = Number(document.getElementById('seats[FCC]').value);
 
 	if ((day == 'MON') || (day == 'WED') || ((time == 'T12') && ((day != 'SAT') || day != 'SUN'))) {
 		total += Number(document.getElementById('seats[STA]').value * 14);
@@ -65,7 +95,7 @@ function calculateTotal() {
 
 function selectDateTime(input, time, mov, day) {
 
-  var datetime = input.value;
+	var datetime = input.value;
 	var title;
 
 	if (mov == 'ACT') {
@@ -87,9 +117,9 @@ function selectDateTime(input, time, mov, day) {
 	document.getElementById('movie[hour]').value = time;
 	document.getElementById('movie[day]').value = day;
 
-  calculateTotal();
-}
+	calculateTotal();
 
+<<<<<<< HEAD
 function Valid()
 {
   var namePattern= /^[a-zA-z]+ +[a-zA-z]+$/;
@@ -138,4 +168,10 @@ function Valid()
     }
   }
 
+=======
+	movie[id] = mov;
+	movie[day] = day;
+	movie[hour] = time;
+>>>>>>> c9f97e2f61bee1994abe6882701db8f902850cb4
 }
+

@@ -55,18 +55,22 @@ th{
 
 #Avengers_Synopsis{
   display: none;
+  padding: 2rem;
 }
 
 #Wedding_Synopsis{
   display: none;
+  padding: 2rem;
 }
 
 #Dumbo_Synopsis{
   display: none;
+  padding: 2rem;
 }
 
 #Prince_Synopsis{
   display: none;
+  padding: 2rem;
 }
 
 .bookNow{
@@ -341,7 +345,7 @@ margin: auto;
 }
 
 #Booking{
-  padding: 2 rem;
+  padding: 2rem;
 }
 
 

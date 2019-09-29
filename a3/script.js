@@ -40,7 +40,7 @@ function calculateTotal() {
 	var day = document.getElementById('movie[day]').value;
 	var time = document.getElementById('movie[hour]').value;
 
-	if ((day == 'MON') || (day == 'WED') || (time == '12')) {
+	if ((day == 'MON') || (day == 'WED') || ((time == 'T12') && ((day != 'SAT') || day != 'SUN'))) {
 		total += Number(document.getElementById('seats[STA]').value * 14);
 		total += Number(document.getElementById('seats[STP]').value * 12.5);
 		total += Number(document.getElementById('seats[STC]').value * 11);

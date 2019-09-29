@@ -35,7 +35,7 @@ function showsynopsis(tempid) {
 }
 
 function calculateTotal() {
-	
+
 	var total = 0;
 	var day = document.getElementById('movie[day]').value;
 	var time = document.getElementById('movie[hour]').value;

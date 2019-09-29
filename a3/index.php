@@ -3,14 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Assignment 2</title>
+    <title>Assignment 3</title>
 
     <!-- Keep wireframe.css for debugging, add your css to style.css -->
     <link id='wireframecss' type="text/css" rel="stylesheet" href="../wireframe.css" disabled>
     <link id='stylecss' type="text/css" rel="stylesheet" href="style.css">
     <script src="./script.js"></script>
     <script src='../wireframe.js'></script>
-	<script src="script.js"></script>
   </head>
 
   <body>
@@ -212,11 +211,11 @@
       <aside class="makBook">
         <p class="bookNow">Make a Booking:</p>
         <aside class="tRowBook">
-          <input type="submit" value="Wednesday - 9pm">
-          <input type="submit" value="Thursday - 9pm">
-          <input type="submit" value="Friday - 9pm">
-          <input type="submit" value="Saturday - 6pm">
-          <input type="submit" value="Sunday - 6pm">
+          <input type="submit" value="Wednesday - 9pm" onclick="selectDateTime(this, 'T21', 'ACT', 'WED')">
+          <input type="submit" value="Thursday - 9pm" onclick="selectDateTime(this, 'T21', 'ACT', 'THU')">
+          <input type="submit" value="Friday - 9pm" onclick="selectDateTime(this, 'T21', 'ACT', 'FRI')">
+          <input type="submit" value="Saturday - 6pm" onclick="selectDateTime(this, 'T18', 'ACT', 'SAT')">
+          <input type="submit" value="Sunday - 6pm" onclick="selectDateTime(this, 'T18', 'ACT', 'SUN')">
         </aside>
       </aside>
     </div>
@@ -241,10 +240,10 @@
       <aside class="makBook">
         <p class="bookNow">Make a Booking:</p>
         <aside class="tRowBook">
-          <input type="submit" value="Monday - 6pm">
-          <input type="submit" value="Tuesday - 6pm">
-          <input type="submit" value="Saturday - 3pm">
-          <input type="submit" value="Sunday - 3pm">
+          <input type="submit" value="Monday - 6pm" onclick="selectDateTime(this, 'T18', 'RMC', 'MON')">
+          <input type="submit" value="Tuesday - 6pm" onclick="selectDateTime(this, 'T18', 'RMC', 'TUE')">
+          <input type="submit" value="Saturday - 3pm" onclick="selectDateTime(this, 'T15', 'RMC', 'SAT')">
+          <input type="submit" value="Sunday - 3pm" onclick="selectDateTime(this, 'T15', 'RMC', 'SUN')">
         </aside>
       </aside>
     </div>
@@ -270,13 +269,13 @@
       <aside class="makBook">
         <p class="bookNow">Make a Booking:</p>
         <aside class="tRowBook">
-          <input type="submit" value="Monday - 12pm">
-          <input type="submit" value="Tuesday - 12pm">
-          <input type="submit" value="Wednesday - 6pm">
-          <input type="submit" value="Thursday - 6pm">
-          <input type="submit" value="Friday - 6pm">
-          <input type="submit" value="Saturday - 12pm">
-          <input type="submit" value="Sunday - 12pm">
+          <input type="submit" value="Monday - 12pm" onclick="selectDateTime(this, 'T12', 'ANM', 'MON')">
+          <input type="submit" value="Tuesday - 12pm" onclick="selectDateTime(this, 'T12', 'ANM', 'TUE')">
+          <input type="submit" value="Wednesday - 6pm" onclick="selectDateTime(this, 'T18', 'ANM', 'WED')">
+          <input type="submit" value="Thursday - 6pm" onclick="selectDateTime(this, 'T18', 'ANM', 'THU')">
+          <input type="submit" value="Friday - 6pm" onclick="selectDateTime(this, 'T18', 'ANM', 'FRI')">
+          <input type="submit" value="Saturday - 12pm" onclick="selectDateTime(this, 'T12', 'ANM', 'SAT')">
+          <input type="submit" value="Sunday - 12pm" onclick="selectDateTime(this, 'T12', 'ANM', 'SUN')">
         </aside>
       </aside>
     </div>
@@ -302,11 +301,11 @@
       <aside class="makBook">
         <p class="bookNow">Make a Booking:</p>
         <aside class="tRowBook">
-          <input type="submit" value="Wednesday - 12pm">
-          <input type="submit" value="Thursday - 12pm">
-          <input type="submit" value="Friday - 12pm">
-          <input type="submit" value="Saturday - 9pm">
-          <input type="submit" value="Sunday - 9pm">
+          <input type="submit" value="Wednesday - 12pm" onclick="selectDateTime(this, 'T12', 'AHF', 'WED')">
+          <input type="submit" value="Thursday - 12pm" onclick="selectDateTime(this, 'T12', 'AHF', 'THU')">
+          <input type="submit" value="Friday - 12pm" onclick="selectDateTime(this, 'T12', 'AHF', 'FRI')">
+          <input type="submit" value="Saturday - 9pm" onclick="selectDateTime(this, 'T21', 'AHF', 'SAT')">
+          <input type="submit" value="Sunday - 9pm" onclick="selectDateTime(this, 'T21', 'AHF', 'SUN')">
         </aside>
       </aside>
     </div>

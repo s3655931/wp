@@ -86,6 +86,7 @@ function selectDateTime(input, time, mov, day) {
 	document.getElementById('movie[id]').value = mov;
 	document.getElementById('movie[hour]').value = time;
 	document.getElementById('movie[day]').value = day;
-
+	
+	calculateTotal();
 }
 

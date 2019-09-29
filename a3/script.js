@@ -157,7 +157,7 @@ function Valid()
     console.log(today.getFullYear());
     console.log(monTH);
     console.log(today.getMonth() + 1);
-    if(chose.split("-")[0]>=today.getFullYear() && monTH>=(today.getMonth()+1))
+    if(chose.split("-")[0]>=today.getFullYear() && monTH>(today.getMonth()+1))
     {
       break;
     }

@@ -29,3 +29,32 @@ function showsynopsis(tempid) {
 	}
 
 }
+
+function calculateTotal() {
+	
+	var total = 0;
+	var day = document.getElementById('movie[day]').value;
+	var time = document.getElementById('movie[hour]').value;
+
+	if ((day == 'MON') || (day == 'WED') || (time == '12')) {
+		total += Number(document.getElementById('seats[STA]').value * 14);
+		total += Number(document.getElementById('seats[STP]').value * 12.5);
+		total += Number(document.getElementById('seats[STC]').value * 11);
+
+		total += Number(document.getElementById('seats[FCA]').value * 24);
+		total += Number(document.getElementById('seats[FCP]').value * 22.5);
+		total += Number(document.getElementById('seats[FCC]').value * 21);
+	}
+	else {
+		total += Number(document.getElementById('seats[STA]').value) * 19.8;
+		total += Number(document.getElementById('seats[STP]').value * 17.5);
+		total += Number(document.getElementById('seats[STC]').value * 15.3);
+
+		total += Number(document.getElementById('seats[FCA]').value * 30);
+		total += Number(document.getElementById('seats[FCP]').value * 27);
+		total += Number(document.getElementById('seats[FCC]').value * 24);
+	}
+	var temp = String(total);
+//	temp = temp.toFixed(2);
+	document.getElementById('totalcost').innerHTML = temp;
+}

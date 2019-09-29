@@ -3,13 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Assignment 3</title>
+    <title>Assignment 2</title>
 
     <!-- Keep wireframe.css for debugging, add your css to style.css -->
     <link id='wireframecss' type="text/css" rel="stylesheet" href="../wireframe.css" disabled>
     <link id='stylecss' type="text/css" rel="stylesheet" href="style.css">
     <script src="./script.js"></script>
     <script src='../wireframe.js'></script>
+	<script src="script.js"></script>
   </head>
 
   <body>
@@ -313,121 +314,120 @@
 
     <div id='Booking'>
       <h2>Booking</h2>
-      <form class="bookForm" action="https://titan.csit.rmit.edu.au/~e54061/wp/lunardo-formtest.php" method="post">
+      <form class="bookForm" action="https://titan.csit.rmit.edu.au/~e54061/wp/lunardo-formtest.php" method="post"
+      onsubmit="return Valid()" onchange="Valid()">
         <h3 id="bookTitle">Movie Title - Day - Time</h3>
         <div class="bookRow">
           <div class="bookCol">
-              <input type="hidden" name="movie[id]" id="movie[id]" value="">
-              <input type="hidden" name="movie[day]" id="movie[day]" value="">
-              <input type="hidden" name="movie[hour]" id="movie[hour]" value="">
-              <fieldset class="standard">
-                <legend>Standard</legend>
 
-                   Adults: <select name="seats[STA]" id="seats[STA]" oninput="calculateTotal()">
-                    <option value=""></option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                    <option value="7">7</option>
-                    <option value="8">8</option>
-                    <option value="9">9</option>
-                    <option value="10">10</option>
-                  </select>
-                  Concession: <select name="seats[STP]" id="seats[STP]" oninput="calculateTotal()">
-                    <option value=""></option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                    <option value="7">7</option>
-                    <option value="8">8</option>
-                    <option value="9">9</option>
-                    <option value="10">10</option>
-                  </select>
-                  Children: <select name="seats[STC]" id="seats[STC]" oninput="calculateTotal()">
-                    <option value=""></option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                    <option value="7">7</option>
-                    <option value="8">8</option>
-                    <option value="9">9</option>
-                    <option value="10">10</option>
+            <input type="hidden" name="movie[id]" id="movie[id]" value="">
+            <input type="hidden" name="movie[day]" id="movie[day]" value="">
+            <input type="hidden" name="movie[hour]" id="movie[hour]" value="">
 
-                  </select>
-              </fieldset>
-              <fieldset class="fClass">
-                <legend>First Class</legend>
-
-                  Adults: <select name="seats[FCA]" id="seats[FCA]" oninput="calculateTotal()">
-                    <option value=""></option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                    <option value="7">7</option>
-                    <option value="8">8</option>
-                    <option value="9">9</option>
-                    <option value="10">10</option>
-                  </select>
-                  Concession: <select name="seats[FCP]" id="seats[FCP]" oninput="calculateTotal()">
-                    <option value=""></option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                    <option value="7">7</option>
-                    <option value="8">8</option>
-                    <option value="9">9</option>
-                    <option value="10">10</option>
-                  </select>
-                  Children: <select name="seats[FCC]" id="seats[FCC]" oninput="calculateTotal()">
-                    <option value=""></option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                    <option value="7">7</option>
-                    <option value="8">8</option>
-                    <option value="9">9</option>
-                    <option value="10">10</option>
-                  </select>
-              </fieldset>
+            <fieldset class="standard">
+              <legend>Standard</legend>
+                 Adults: <select name="seats[STA]" id="seats[STA]" oninput="calculateTotal()">
+                  <option value=""></option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+                Concession: <select name="seats[STP]" id="seats[STP]" oninput="calculateTotal()">
+                  <option value=""></option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+                Children: <select name="seats[STC]" id="seats[STC]" oninput="calculateTotal()">
+                  <option value=""></option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+            </fieldset>
+            <fieldset class="fClass">
+              <legend>First Class</legend>
+                Adults: <select name="seats[FCA]" id="seats[FCA]" oninput="calculateTotal()">
+                  <option value=""></option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+                Concession: <select name="seats[FCP]" id="seats[FCP]" oninput="calculateTotal()">
+                  <option value=""></option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+                Children: <select name="seats[FCC]" id="seats[FCC]" oninput="calculateTotal()">
+                  <option value=""></option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+            </fieldset>
             <div class="total">
               Total $<p id='totalcost' style="display:inline"></p>
-
             </div>
           </div>
 
           <div class="fieldCol">
               <div class="flexCon">
-                <p>Name:</p> <input type="text" name="cust[name]" value="">
+                <p>Name:</p> <input id="name" type="text" name="cust[name]" value="" pattern="[a-zA-z]+ +[a-zA-z]+" title="Enter full name">
               </div>
               <div class="flexCon">
-                <p>Email:</p><input type="email" name="cust[email]" value="">
+                <p>Email:</p><input id="email" type="email" name="cust[email]" value="">
               </div>
               <div class="flexCon">
-                <p>Mobile:</p> <input type="tel" name="cust[mobile]" value="">
+                <p>Mobile:</p> <input id="tel" type="tel" name="cust[mobile]" value="" pattern="(\(04\)|04|\+614)( ?\d){8}" title="Incorrect phone number">
               </div>
               <div class="flexCon">
-                <p>Credit Card:</p>  <input type="text" name="cust[card]" value="">
+                <p>Credit Card:</p>  <input id="credit" type="text" name="cust[card]" value="" pattern="( ?\d){14,19}" title="Incorrect credit card number">
               </div>
               <div class="flexCon">
-                <p>Expiry:</p>  <input type="month" name="cust[expiry]" value="">
+                <p>Expiry:</p>  <input id="date" type="month" name="cust[expiry]" value="">
               </div>
               <div class="flexCon">
               <input type="submit" name="order" value="Order">

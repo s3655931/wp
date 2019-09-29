@@ -11,6 +11,7 @@ window.onscroll = function ()
   {
     navlinks[a].classList.remove('active');
   }
+
   navlinks[n].classList.add('active');
 }
 
@@ -31,7 +32,6 @@ function showsynopsis(tempid) {
 			item.style.display="none";
 		}
 	}
-
 }
 
 function calculateTotal() {
@@ -64,8 +64,8 @@ function calculateTotal() {
 }
 
 function selectDateTime(input, time, mov, day) {
-	
-	var datetime = input.value;
+
+  var datetime = input.value;
 	var title;
 
 	if (mov == 'ACT') {
@@ -87,5 +87,54 @@ function selectDateTime(input, time, mov, day) {
 	document.getElementById('movie[hour]').value = time;
 	document.getElementById('movie[day]').value = day;
 
+  calculateTotal();
 }
 
+function Valid()
+{
+  var namePattern= /^[a-zA-z]+ +[a-zA-z]+$/;
+  var telPattern = /^(\(04\)|04|\+614)( ?\d){8}$/;
+  var crePattern = /^( ?\d){14,19}$/;
+  var today = new Date();
+
+  if(document.getElementById('name').value == "")
+  {
+    document.getElementById('name').focus();
+    return false;
+  }
+  else if(document.getElementById('email').value == "")
+  {
+    document.getElementById('email').focus();
+    return false;
+  }
+
+ else if (document.getElementById('tel').value == "")
+  {
+    document.getElementById('tel').focus();
+    return false;
+  }
+  else if (document.getElementById('credit').value == "")
+  {
+    document.getElementById('credit').focus();
+    return false;
+  }
+
+  while(true)
+  {
+    var chose = document.getElementById('date').value;
+    var split = chose.split("-");
+    var monTH = parseInt(chose.split("-")[1]);
+    console.log(chose.split("-")[0]);
+    console.log(today.getFullYear());
+    console.log(monTH);
+    console.log(today.getMonth() + 1);
+    if(chose.split("-")[0]>=today.getFullYear() && monTH>=(today.getMonth()+1))
+    {
+      break;
+    }
+    else
+    {
+      return false;
+    }
+  }
+}

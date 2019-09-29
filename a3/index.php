@@ -415,19 +415,19 @@
 
           <div class="fieldCol">
               <div class="flexCon">
-                <p>Name:</p> <input id="name" type="text" name="cust[name]" value="" pattern="[a-zA-z]+ +[a-zA-z]+" title="Enter full name">
+                <label>Name:</label> <input id="name" type="text" name="cust[name]" value="" pattern="[a-zA-z]+ +[a-zA-z]+" title="Enter full name">
               </div>
               <div class="flexCon">
-                <p>Email:</p><input id="email" type="email" name="cust[email]" value="">
+                <label>Email:</label><input id="email" type="email" name="cust[email]" value="">
               </div>
               <div class="flexCon">
-                <p>Mobile:</p> <input id="tel" type="tel" name="cust[mobile]" value="" pattern="(\(04\)|04|\+614)( ?\d){8}" title="Incorrect phone number">
+                <label>Mobile:</label> <input id="tel" type="tel" name="cust[mobile]" value="" pattern="(\(04\)|04|\+614)( ?\d){8}" title="Incorrect phone number">
               </div>
               <div class="flexCon">
-                <p>Credit Card:</p>  <input id="credit" type="text" name="cust[card]" value="" pattern="( ?\d){19}|( ?\d){14}" title="Incorrect credit card number">
+                <label>Credit Card:</label>  <input id="credit" type="text" name="cust[card]" value="" pattern="( ?\d){19}|( ?\d){14}" title="Incorrect credit card number">
               </div>
               <div class="flexCon">
-                <p>Expiry:</p>  <input id="date" type="month" name="cust[expiry]" value="">
+                <label>Expiry:</label>  <input id="date" type="month" name="cust[expiry]" value="">
               </div>
               <div class="flexCon">
               <input type="submit" name="order" value="Order">

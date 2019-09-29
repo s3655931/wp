@@ -338,7 +338,7 @@ flex: 1 100%;
 justify-content: flex-end;
 }
 
-.flexCon > p{
+.flexCon > label{
 margin: auto;
 }
 

@@ -94,7 +94,7 @@ function Valid()
 {
   var namePattern= /^[a-zA-z]+ +[a-zA-z]+$/;
   var telPattern = /^(\(04\)|04|\+614)( ?\d){8}$/;
-  var crePattern = /^( ?\d){14,19}$/;
+  var crePattern = /( ?\d){19}|( ?\d){14}/;
   var today = new Date();
 
   if(document.getElementById('name').value == "")
@@ -137,4 +137,5 @@ function Valid()
       return false;
     }
   }
+
 }

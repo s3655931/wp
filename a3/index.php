@@ -327,7 +327,7 @@
             <fieldset class="standard">
               <legend>Standard</legend>
                  Adults: <select name="seats[STA]" id="seats[STA]" oninput="calculateTotal()">
-                  <option value=""></option>
+                  <option value="">Please Select</option>
                   <option value="1">1</option>
                   <option value="2">2</option>
                   <option value="3">3</option>
@@ -340,7 +340,7 @@
                   <option value="10">10</option>
                 </select>
                 Concession: <select name="seats[STP]" id="seats[STP]" oninput="calculateTotal()">
-                  <option value=""></option>
+                  <option value="">Please Select</option>
                   <option value="1">1</option>
                   <option value="2">2</option>
                   <option value="3">3</option>
@@ -353,7 +353,7 @@
                   <option value="10">10</option>
                 </select>
                 Children: <select name="seats[STC]" id="seats[STC]" oninput="calculateTotal()">
-                  <option value=""></option>
+                  <option value="">Please Select</option>
                   <option value="1">1</option>
                   <option value="2">2</option>
                   <option value="3">3</option>
@@ -369,7 +369,7 @@
             <fieldset class="fClass">
               <legend>First Class</legend>
                 Adults: <select name="seats[FCA]" id="seats[FCA]" oninput="calculateTotal()">
-                  <option value=""></option>
+                  <option value="">Please Select</option>
                   <option value="1">1</option>
                   <option value="2">2</option>
                   <option value="3">3</option>
@@ -382,7 +382,7 @@
                   <option value="10">10</option>
                 </select>
                 Concession: <select name="seats[FCP]" id="seats[FCP]" oninput="calculateTotal()">
-                  <option value=""></option>
+                  <option value="">Please Select</option>
                   <option value="1">1</option>
                   <option value="2">2</option>
                   <option value="3">3</option>
@@ -395,7 +395,7 @@
                   <option value="10">10</option>
                 </select>
                 Children: <select name="seats[FCC]" id="seats[FCC]" oninput="calculateTotal()">
-                  <option value=""></option>
+                  <option value="">Please Select</option>
                   <option value="1">1</option>
                   <option value="2">2</option>
                   <option value="3">3</option>

@@ -212,40 +212,11 @@
       <aside class="makBook">
         <p class="bookNow">Make a Booking:</p>
         <aside class="tRowBook">
-          <input class="hiddencell" type="submit" value="Monday - 12pm">
-          <input class="hiddencell" type="submit" value="Monday - 3pm">
-          <input class="hiddencell" type="submit" value="Monday - 6pm">
-          <input class="hiddencell" type="submit" value="Monday - 9pm">
-
-          <input class="hiddencell" type="submit" value="Tuesday - 12pm">
-          <input class="hiddencell" type="submit" value="Tuesday - 3pm">
-          <input class="hiddencell" type="submit" value="Tuesday - 6pm">
-          <input class="hiddencell" type="submit" value="Tuesday - 9pm">
-
-          <input class="hiddencell" type="submit" value="Wednesday - 12pm">
-          <input class="hiddencell" type="submit" value="Wednesday - 3pm">
-          <input class="hiddencell" type="submit" value="Wednesday - 6pm">
           <input type="submit" value="Wednesday - 9pm">
-
-          <input class="hiddencell" type="submit" value="Thursday - 12pm">
-          <input class="hiddencell" type="submit" value="Thursday - 3pm">
-          <input class="hiddencell" type="submit" value="Thursday - 6pm">
           <input type="submit" value="Thursday - 9pm">
-
-          <input class="hiddencell" type="submit" value="Friday - 12pm">
-          <input class="hiddencell" type="submit" value="Friday - 3pm">
-          <input class="hiddencell" type="submit" value="Friday - 6pm">
           <input type="submit" value="Friday - 9pm">
-
-          <input class="hiddencell" type="submit" value="Saturday - 12pm">
-          <input class="hiddencell" type="submit" value="Saturday - 3pm">
           <input type="submit" value="Saturday - 6pm">
-          <input class="hiddencell" type="submit" value="Saturday - 9pm">
-
-          <input class="hiddencell" type="submit" value="Sunday - 12pm">
-          <input class="hiddencell" type="submit" value="Sunday - 3pm">
           <input type="submit" value="Sunday - 6pm">
-          <input class="hiddencell" type="submit" value="Sunday - 9pm">
         </aside>
       </aside>
     </div>
@@ -270,40 +241,10 @@
       <aside class="makBook">
         <p class="bookNow">Make a Booking:</p>
         <aside class="tRowBook">
-          <input class="hiddencell" type="submit" value="Monday - 12pm">
-          <input class="hiddencell" type="submit" value="Monday - 3pm">
-          <input class="hiddencell" type="submit" value="Monday - 6pm">
-          <input class="hiddencell" type="submit" value="Monday - 9pm">
-
-          <input class="hiddencell" type="submit" value="Tuesday - 12pm">
-          <input class="hiddencell" type="submit" value="Tuesday - 3pm">
-          <input class="hiddencell" type="submit" value="Tuesday - 6pm">
-          <input class="hiddencell" type="submit" value="Tuesday - 9pm">
-
-          <input class="hiddencell" type="submit" value="Wednesday - 12pm">
-          <input class="hiddencell" type="submit" value="Wednesday - 3pm">
-          <input class="hiddencell" type="submit" value="Wednesday - 6pm">
-          <input type="submit" value="Wednesday - 9pm">
-
-          <input class="hiddencell" type="submit" value="Thursday - 12pm">
-          <input class="hiddencell" type="submit" value="Thursday - 3pm">
-          <input class="hiddencell" type="submit" value="Thursday - 6pm">
-          <input type="submit" value="Thursday - 9pm">
-
-          <input class="hiddencell" type="submit" value="Friday - 12pm">
-          <input class="hiddencell" type="submit" value="Friday - 3pm">
-          <input class="hiddencell" type="submit" value="Friday - 6pm">
-          <input type="submit" value="Friday - 9pm">
-
-          <input class="hiddencell" type="submit" value="Saturday - 12pm">
-          <input class="hiddencell" type="submit" value="Saturday - 3pm">
-          <input type="submit" value="Saturday - 6pm">
-          <input class="hiddencell" type="submit" value="Saturday - 9pm">
-
-          <input class="hiddencell" type="submit" value="Sunday - 12pm">
-          <input class="hiddencell" type="submit" value="Sunday - 3pm">
-          <input type="submit" value="Sunday - 6pm">
-          <input class="hiddencell" type="submit" value="Sunday - 9pm">
+          <input type="submit" value="Monday - 6pm">
+          <input type="submit" value="Tuesday - 6pm">
+          <input type="submit" value="Saturday - 3pm">
+          <input type="submit" value="Sunday - 3pm">
         </aside>
       </aside>
     </div>
@@ -329,40 +270,13 @@
       <aside class="makBook">
         <p class="bookNow">Make a Booking:</p>
         <aside class="tRowBook">
-          <input class="hiddencell" type="submit" value="Monday - 12pm">
-          <input class="hiddencell" type="submit" value="Monday - 3pm">
-          <input class="hiddencell" type="submit" value="Monday - 6pm">
-          <input class="hiddencell" type="submit" value="Monday - 9pm">
-
-          <input class="hiddencell" type="submit" value="Tuesday - 12pm">
-          <input class="hiddencell" type="submit" value="Tuesday - 3pm">
-          <input class="hiddencell" type="submit" value="Tuesday - 6pm">
-          <input class="hiddencell" type="submit" value="Tuesday - 9pm">
-
-          <input class="hiddencell" type="submit" value="Wednesday - 12pm">
-          <input class="hiddencell" type="submit" value="Wednesday - 3pm">
-          <input class="hiddencell" type="submit" value="Wednesday - 6pm">
-          <input type="submit" value="Wednesday - 9pm">
-
-          <input class="hiddencell" type="submit" value="Thursday - 12pm">
-          <input class="hiddencell" type="submit" value="Thursday - 3pm">
-          <input class="hiddencell" type="submit" value="Thursday - 6pm">
-          <input type="submit" value="Thursday - 9pm">
-
-          <input class="hiddencell" type="submit" value="Friday - 12pm">
-          <input class="hiddencell" type="submit" value="Friday - 3pm">
-          <input class="hiddencell" type="submit" value="Friday - 6pm">
-          <input type="submit" value="Friday - 9pm">
-
-          <input class="hiddencell" type="submit" value="Saturday - 12pm">
-          <input class="hiddencell" type="submit" value="Saturday - 3pm">
-          <input type="submit" value="Saturday - 6pm">
-          <input class="hiddencell" type="submit" value="Saturday - 9pm">
-
-          <input class="hiddencell" type="submit" value="Sunday - 12pm">
-          <input class="hiddencell" type="submit" value="Sunday - 3pm">
-          <input type="submit" value="Sunday - 6pm">
-          <input class="hiddencell" type="submit" value="Sunday - 9pm">
+          <input type="submit" value="Monday - 12pm">
+          <input type="submit" value="Tuesday - 12pm">
+          <input type="submit" value="Wednesday - 6pm">
+          <input type="submit" value="Thursday - 6pm">
+          <input type="submit" value="Friday - 6pm">
+          <input type="submit" value="Saturday - 12pm">
+          <input type="submit" value="Sunday - 12pm">
         </aside>
       </aside>
     </div>
@@ -388,40 +302,11 @@
       <aside class="makBook">
         <p class="bookNow">Make a Booking:</p>
         <aside class="tRowBook">
-          <input class="hiddencell" type="submit" value="Monday - 12pm">
-          <input class="hiddencell" type="submit" value="Monday - 3pm">
-          <input class="hiddencell" type="submit" value="Monday - 6pm">
-          <input class="hiddencell" type="submit" value="Monday - 9pm">
-
-          <input class="hiddencell" type="submit" value="Tuesday - 12pm">
-          <input class="hiddencell" type="submit" value="Tuesday - 3pm">
-          <input class="hiddencell" type="submit" value="Tuesday - 6pm">
-          <input class="hiddencell" type="submit" value="Tuesday - 9pm">
-
-          <input class="hiddencell" type="submit" value="Wednesday - 12pm">
-          <input class="hiddencell" type="submit" value="Wednesday - 3pm">
-          <input class="hiddencell" type="submit" value="Wednesday - 6pm">
-          <input type="submit" value="Wednesday - 9pm">
-
-          <input class="hiddencell" type="submit" value="Thursday - 12pm">
-          <input class="hiddencell" type="submit" value="Thursday - 3pm">
-          <input class="hiddencell" type="submit" value="Thursday - 6pm">
-          <input type="submit" value="Thursday - 9pm">
-
-          <input class="hiddencell" type="submit" value="Friday - 12pm">
-          <input class="hiddencell" type="submit" value="Friday - 3pm">
-          <input class="hiddencell" type="submit" value="Friday - 6pm">
-          <input type="submit" value="Friday - 9pm">
-
-          <input class="hiddencell" type="submit" value="Saturday - 12pm">
-          <input class="hiddencell" type="submit" value="Saturday - 3pm">
-          <input type="submit" value="Saturday - 6pm">
-          <input class="hiddencell" type="submit" value="Saturday - 9pm">
-
-          <input class="hiddencell" type="submit" value="Sunday - 12pm">
-          <input class="hiddencell" type="submit" value="Sunday - 3pm">
-          <input type="submit" value="Sunday - 6pm">
-          <input class="hiddencell" type="submit" value="Sunday - 9pm">
+          <input type="submit" value="Wednesday - 12pm">
+          <input type="submit" value="Thursday - 12pm">
+          <input type="submit" value="Friday - 12pm">
+          <input type="submit" value="Saturday - 9pm">
+          <input type="submit" value="Sunday - 9pm">
         </aside>
       </aside>
     </div>
@@ -430,10 +315,10 @@
     <div id='Booking'>
       <h2>Booking</h2>
       <form class="bookForm" action="https://titan.csit.rmit.edu.au/~e54061/wp/lunardo-formtest.php" method="post">
-        <h3 id="bookTitle">Movie Title - Day - Time<h3>
+        <h3 id="bookTitle">Movie Title - Day - Time</h3>
         <div class="bookRow">
-          <div class="adjustCon">
-          </div>
+          <!-- <div class="adjustCon">
+          </div> -->
           <div class="bookCol">
               <input type="hidden" name="movie[id]" value="">
               <input type="hidden" name="movie[day]" value="">
@@ -441,40 +326,88 @@
               <fieldset class="standard">
                 <legend>Standard</legend>
                   Adults: <select name="seats[STA]">
-                    <option value="">""</option>
-                    <option value="">""</option>
-                    <option value="">""</option>
-                  </select><br>
-                  Concession<select name="seats[STP]">
-                    <option value="">""</option>
-                    <option value="">""</option>
-                    <option value="">""</option>
-                  </select><br>
-                  Children<select name="seats[STC]">
-                    <option value="">""</option>
-                    <option value="">""</option>
-                    <option value="">""</option>
+                    <option value=""></option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                  </select>
+                  Concession: <select name="seats[STP]">
+                    <option value=""></option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                  </select>
+                  Children: <select name="seats[STC]">
+                    <option value=""></option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
                   </select>
               </fieldset>
               <fieldset class="fClass">
                 <legend>First Class</legend>
-                  Adults<select name="seats[FCA]">
-                    <option value="">""</option>
-                    <option value="">""</option>
-                    <option value="">""</option>
-                  </select><br>
-                  Concession<select name="seats[FCP]">
-                    <option value="">""</option>
-                    <option value="">""</option>
-                    <option value="">""</option>
-                  </select><br>
-                  Children<select name="seats[FCC]">
-                    <option value="">""</option>
-                    <option value="">""</option>
-                    <option value="">""</option>
+                  Adults: <select name="seats[FCA]">
+                    <option value=""></option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                  </select>
+                  Concession: <select name="seats[FCP]">
+                    <option value=""></option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                  </select>
+                  Children: <select name="seats[FCC]">
+                    <option value=""></option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
                   </select>
               </fieldset>
-            <div>
+            <div class="total">
               Total $
             </div>
           </div>
@@ -504,8 +437,8 @@
               <input type="submit" name="order" value="Order">
             </div>
           </div>
-            <div class="adjustCon">
-            </div>
+          <!-- <div class="adjustCon">
+          </div> -->
           </div>
 
       </form>

@@ -67,7 +67,7 @@ function calculateTotal() {
 	seats[STC] = Number(document.getElementById('seats[STC]').value);
 
 	seats[FCA] = Number(document.getElementById('seats[FCA]').value);
-	seats[FCP] = Number(document.getElementById('seats[FCP]').value); 
+	seats[FCP] = Number(document.getElementById('seats[FCP]').value);
 	seats[FCC] = Number(document.getElementById('seats[FCC]').value);
 
 	if ((day == 'MON') || (day == 'WED') || ((time == 'T12') && ((day != 'SAT') || day != 'SUN'))) {
@@ -119,7 +119,6 @@ function selectDateTime(input, time, mov, day) {
 
 	calculateTotal();
 
-<<<<<<< HEAD
 function Valid()
 {
   var namePattern= /^[a-zA-z]+ +[a-zA-z]+$/;
@@ -168,10 +167,4 @@ function Valid()
     }
   }
 
-=======
-	movie[id] = mov;
-	movie[day] = day;
-	movie[hour] = time;
->>>>>>> c9f97e2f61bee1994abe6882701db8f902850cb4
 }
-

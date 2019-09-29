@@ -9,6 +9,7 @@
     <link id='wireframecss' type="text/css" rel="stylesheet" href="../wireframe.css" disabled>
     <link id='stylecss' type="text/css" rel="stylesheet" href="style.css">
     <script src='../wireframe.js'></script>
+	<script src="script.js"></script>
   </head>
 
   <body>
@@ -120,7 +121,7 @@
           </div>
         </div>
 
-        <div class="movie1">
+        <div class="movie1" onclick="showsynopsis('Wedding_Synopsis')">
           <div class="poster">
             <img src="../../media/top-end-wed.jpg" width="200" alt="top end wedding poster">
           </div>
@@ -141,7 +142,7 @@
       </div>
 
       <div class="moviebox">
-        <div class="movie">
+        <div class="movie" onclick="showsynopsis('Dumbo_Synopsis')">
           <div class="poster">
             <img src="../../media/dumbo.jpg" width="200" alt="dumbo poster">
           </div>
@@ -163,7 +164,7 @@
           </div>
         </div>
 
-        <div class="movie1">
+        <div class="movie1" onclick="showsynopsis('Prince_Synopsis')">
           <div class="poster">
             <img src="../../media/happy-prince.jpg" width="200" alt="the happy prince poster">
           </div>

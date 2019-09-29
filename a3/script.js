@@ -1,9 +1,18 @@
 /* Insert your javascript here */
 
-function showsynopsis(id) {
-	var item = document.getElementById(id);
+function showsynopsis(tempid) {
+	var ids = ['Avengers_Synopsis', 'Wedding_Synopsis', 'Dumbo_Synopsis', 'Prince_Synopsis'];
 
-	item.style.display="block"
+	for (var i = 0; i < 4; i++) {
+		
+		var item = document.getElementById(ids[i]);
+		if (tempid == ids[i]) {
+			item.style.display="block";
+		}
+		else {
+			item.style.display="none";
+		}
+	}
 
 }
 

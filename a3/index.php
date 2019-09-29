@@ -251,7 +251,7 @@
     </div>
 
     <!-- Top End Wedding -->
-    <nav id='Wedding_Synopsis'>
+    <div id='Wedding_Synopsis'>
       <h2>Synopsis</h2>
       <div class="wrapper1">
         <div class="midSec">
@@ -306,11 +306,11 @@
           <input class="hiddencell" type="submit" value="Sunday - 9pm">
         </aside>
       </aside>
-    </nav>
+    </div>
 
 
     <!-- Dumbo -->
-    <nav id='Dumbo_Synopsis'>
+    <div id='Dumbo_Synopsis'>
       <h2>Synopsis</h2>
       <div class="wrapper1">
         <div class="midSec">
@@ -365,11 +365,11 @@
           <input class="hiddencell" type="submit" value="Sunday - 9pm">
         </aside>
       </aside>
-    </nav>
+    </div>
 
 
     <!-- The Happy Prince -->
-    <nav id='Prince_Synopsis'>
+    <div id='Prince_Synopsis'>
       <h2>Synopsis</h2>
       <div class="wrapper1">
         <div class="midSec">
@@ -424,10 +424,10 @@
           <input class="hiddencell" type="submit" value="Sunday - 9pm">
         </aside>
       </aside>
-    </nav>
+    </div>
 
 
-    <nav id='Booking'>
+    <div id='Booking'>
       <h2>Booking</h2>
       <form class="bookForm" action="https://titan.csit.rmit.edu.au/~e54061/wp/lunardo-formtest.php" method="post">
         <h3 id="bookTitle">Movie Title - Day - Time<h3>
@@ -509,7 +509,7 @@
           </div>
 
       </form>
-    </nav>
+    </div>
 
     </main>
 

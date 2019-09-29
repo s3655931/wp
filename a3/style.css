@@ -6,7 +6,7 @@ article{
 }
 
 body {
-  background-color: #4e4e50;
+  background-color: #1a1a1d;
 }
 
 footer > *{
@@ -55,18 +55,22 @@ th{
 
 #Avengers_Synopsis{
   display: none;
+  padding: 2rem;
 }
 
 #Wedding_Synopsis{
   display: none;
+  padding: 2rem;
 }
 
 #Dumbo_Synopsis{
   display: none;
+  padding: 2rem;
 }
 
 #Prince_Synopsis{
   display: none;
+  padding: 2rem;
 }
 
 .bookNow{
@@ -300,7 +304,7 @@ nav a:hover,nav a.active {
 
 .bookCol > * {
   padding: 10px;
-  flex: 1 100%;
+  /* flex: 1 100%; */
 }
 
 .flexCon{
@@ -311,12 +315,12 @@ display: flex;
 
 .standard{
 flex: 1 100%;
-padding: 10px;
+padding: 20px;
 }
 
 .fClass{
 flex: 1 100%;
-padding: 10px;
+padding: 20px;
 }
 
 .adjustCon{
@@ -325,21 +329,40 @@ flex: 1;
 
 .fieldCol{
 display: flex;
-		 flex-flow: column;
-		 /* border-style: double; */
-flex: 2;
+flex-flow: column;
+/* border-style: double; */
+flex: 3;
 }
 
 .fieldCol > * {
-padding: 10px;
+padding: 15px;
 flex: 1 100%;
-	  justify-content: flex-end;
+justify-content: flex-end;
 }
 
 .flexCon > p{
 margin: auto;
 }
 
+#Booking{
+  padding: 2rem;
+}
 
-/* @media all and (min-wdth: 800px){
-   } */
+.credit{
+  margin: auto;
+}
+
+.credit > p{
+  margin: -2px;
+}
+
+
+ @media all and (max-width: 800px){
+   .bookRow{flex:1; order:1; flex-direction: column;}
+   .bookCol{flex:1; order:1;}
+   .fieldCol{flex: 2; order:2;}
+   .standard{flex:none; order:1;}
+   .fClass{ flex: none; order:2;}
+   .bookForm{width: 70%}
+   .total{flex:1; order:3}
+ }

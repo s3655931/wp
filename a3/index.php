@@ -409,7 +409,7 @@
                   </select>
               </fieldset>
             <div class="total">
-              Total $<p id='totalcost' style="display:inline">temp</p>
+              Total $<p id='totalcost' style="display:inline"></p>
 
             </div>
           </div>

@@ -14,6 +14,10 @@ window.onscroll = function ()
   navlinks[n].classList.add('active');
 }
 
+window.onload = function() {
+	calculateTotal();
+}
+
 function showsynopsis(tempid) {
 	var ids = ['Avengers_Synopsis', 'Wedding_Synopsis', 'Dumbo_Synopsis', 'Prince_Synopsis'];
 
@@ -54,7 +58,7 @@ function calculateTotal() {
 		total += Number(document.getElementById('seats[FCP]').value * 27);
 		total += Number(document.getElementById('seats[FCC]').value * 24);
 	}
-	var temp = String(total);
-//	temp = temp.toFixed(2);
+//	var temp = String(total);
+	temp = total.toFixed(2);
 	document.getElementById('totalcost').innerHTML = temp;
 }

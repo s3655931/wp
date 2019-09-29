@@ -1,7 +1,6 @@
 var movie = ['', '', ''];
 var seats = [0, 0, 0, 0, 0, 0];
 var cust = ['', '', '', '', ''];
-var order = 'order';
 
 var id = 0;
 var day = 1;

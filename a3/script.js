@@ -53,6 +53,8 @@ function showsynopsis(tempid) {
 		}
 	}
 
+	calculateTotal();
+
 }
 
 function calculateTotal() {

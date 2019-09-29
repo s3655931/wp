@@ -8,6 +8,7 @@
     <!-- Keep wireframe.css for debugging, add your css to style.css -->
     <link id='wireframecss' type="text/css" rel="stylesheet" href="../wireframe.css" disabled>
     <link id='stylecss' type="text/css" rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
     <script src='../wireframe.js'></script>
 	<script src="script.js"></script>
   </head>
@@ -19,7 +20,7 @@
           Lunardo Cinema</h1>
     </header>
 
-    <nav class="topnav">
+    <nav>
       <a href='#AboutUs'>About Us</a>
       <a href='#Prices'>Prices Section</a>
       <a href='#NowShowing'>Now Showing</a>
@@ -100,8 +101,9 @@
 
     <article id='NowShowing'>
       <h2>Now Showing</h2>
+
       <div class="moviebox">
-        <div class="movie" onclick="showsynopsis('Avengers_Synopsis')">
+        <div class="movie">
           <div class="poster">
             <img src="../../media/endgame.jpeg" width="200" alt="avengers poster">
           </div>
@@ -189,7 +191,7 @@
 
     <!-- Synopsis Area -->
     <!-- Avengers -->
-    <article id='Avengers_Synopsis'>
+    <div id='Avengers_Synopsis'>
       <h2>Synopsis</h2>
       <div class="wrapper1">
         <div class="midSec">
@@ -246,10 +248,10 @@
           <input class="hiddencell" type="submit" value="Sunday - 9pm">
         </aside>
       </aside>
-    </article>
+    </div>
 
     <!-- Top End Wedding -->
-    <article id='Wedding_Synopsis'>
+    <nav id='Wedding_Synopsis'>
       <h2>Synopsis</h2>
       <div class="wrapper1">
         <div class="midSec">
@@ -304,11 +306,11 @@
           <input class="hiddencell" type="submit" value="Sunday - 9pm">
         </aside>
       </aside>
-    </article>
+    </nav>
 
 
     <!-- Dumbo -->
-    <article id='Dumbo_Synopsis'>
+    <nav id='Dumbo_Synopsis'>
       <h2>Synopsis</h2>
       <div class="wrapper1">
         <div class="midSec">
@@ -363,11 +365,11 @@
           <input class="hiddencell" type="submit" value="Sunday - 9pm">
         </aside>
       </aside>
-    </article>
+    </nav>
 
 
     <!-- The Happy Prince -->
-    <article id='Prince_Synopsis'>
+    <nav id='Prince_Synopsis'>
       <h2>Synopsis</h2>
       <div class="wrapper1">
         <div class="midSec">
@@ -422,10 +424,10 @@
           <input class="hiddencell" type="submit" value="Sunday - 9pm">
         </aside>
       </aside>
-    </article>
+    </nav>
 
 
-    <article id='Booking'>
+    <nav id='Booking'>
       <h2>Booking</h2>
       <form class="bookForm" action="https://titan.csit.rmit.edu.au/~e54061/wp/lunardo-formtest.php" method="post">
         <h3 id="bookTitle">Movie Title - Day - Time<h3>
@@ -507,7 +509,7 @@
           </div>
 
       </form>
-    </article>
+    </nav>
 
     </main>
 

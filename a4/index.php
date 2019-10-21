@@ -1,3 +1,9 @@
+<?php
+include 'tools.php';
+
+sessionArray();
+?>
+
 <!DOCTYPE html>
 <html lang='en'>
   <head>
@@ -314,7 +320,7 @@
 
     <div id='Booking'>
       <h2>Booking</h2>
-      <form class="bookForm" action="https://titan.csit.rmit.edu.au/~e54061/wp/lunardo-formtest.php" method="post"
+      <form class="bookForm" action="index.php" method="post"
       onsubmit="return Valid()" onchange="Valid()">
         <h3 id="bookTitle">Movie Title - Day - Time</h3>
         <div class="bookRow">
@@ -450,7 +456,19 @@
       </script> Justin Seymour s3655931, Danny Khuu s3601030, Group 32. <a href="https://github.com/s3655931/wp" target="_blank">Github Link.</a> Last modified <?= date ("Y F d  H:i", filemtime($_SERVER['SCRIPT_FILENAME'])); ?>.</div>
       <div>Disclaimer: This website is not a real website and is being developed as part of a School of Science Web Programming course at RMIT University in Melbourne, Australia.</div>
       <div><button id='toggleWireframeCSS' onclick='toggleWireframe()'>Toggle Wireframe CSS</button></div>
+      <form>
+        <input type='submit' name='session-reset' value='Reset the session' >
+      </form>
     </footer>
-
   </body>
 </html>
+<?php
+preShow($_POST); // ie echo a string
+preShow($_SESSION);
+$aaarg = preShow($_SESSION['movie'], true); // ie return as a string
+echo "Why is \n $aaarg \n not working?";
+
+
+printMyCode(); // prints all lines of code in this file with line numbers
+
+?>

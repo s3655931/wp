@@ -347,10 +347,6 @@ margin: auto;
 }
 
 
-.standard > select{
-  width: 30%;
-}
-
 
 
  @media all and (max-width: 800px){

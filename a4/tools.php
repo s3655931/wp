@@ -75,7 +75,8 @@ function sessionArray()
 function receiptRedirectCheck()
 {
 	if (!isset($_SESSION["cart"]))
-	{
+	{	
+		writeToFile();
 		header("location: index.php");
 	}
 }
@@ -542,6 +543,14 @@ function inputValid()
 		sessionArray();
 	}
 
+}
+
+function writeToFile()
+{
+	$fp = fopen('bookings.txt', "a");
+	flock($fp, LOCK_SH);
+
+	fwrite($fp, $today . "\t");
 }
 
 ?>

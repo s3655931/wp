@@ -78,6 +78,10 @@
      {
         header("location: index.php");
      }
+	 else
+	 {
+		writeToFile();
+	 }
   }
 
   function receiptArray()
@@ -569,7 +573,7 @@ function writeToFile()
 	$fp = fopen("bookings.txt", "a+");
 	flock($fp, LOCK_EX);
 
-	fputcsv($fp, $list);
+	fputcsv($fp, $list, "\t");
 
 	flock($fp, LOCK_UN);
 	fclose($fp);

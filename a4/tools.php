@@ -1,5 +1,6 @@
 <?php
-  session_start();
+
+session_start();
 
   function preShow( $arr, $returnAsString=false )
   {
@@ -407,5 +408,79 @@
     }
   }
 
+function inputValid()
+{
+	$name = $_POST['cust']['name'];
+
+	if (empty($name))
+	{
+		echo "No name entered\n";
+	}
+	else if (!preg_match("/^[a-zA-z]+ +[a-zA-z]+$/", $name))
+	{
+		echo "Invalid name\n";
+	}
+
+	$email = $_POST['cust']['email'];
+
+	if (empty($email))
+	{
+		echo "No email entered\n";
+	}
+
+	$mobile = $_POST['cust']['mobile'];
+
+	if (empty($mobile))
+	{
+		echo "No mobile entered\n";
+	}
+	else if (!preg_match("/^(\(04\)|04|\+614)( ?\d){8}$/", $mobile))
+	{
+		echo "Invalid mobile\n";
+	}
+
+	$card = $_POST['cust']['card'];
+
+	if (empty($card))
+	{
+		echo "No credit card entered\n";
+	}
+	else if (!preg_match("/( ?\d){19}|( ?\d){14}/", $card))
+	{
+		echo "Invalid credit card number\n";
+	}
+
+	// Expiry validation
+
+	$temp = $_POST['cust']['expiry'];
+
+	if (!empty($temp))
+	{
+		$temp .= " 1";
+
+		$exp = date_create_from_format('Y-n j', $temp);
+
+		//$exp = date_format($exp, 'm-Y');
+
+		//echo $exp;
+
+		$today = date_create("now");
+
+		//$today = date_format($today, 'm-Y');
+
+		//echo $today;
+
+		$newval = date_diff($today, $exp);
+		
+		//echo $newval->format('%R%m');
+
+		if ($newval->format('%R%m') < 1)
+		{
+			echo "Invalid expiry date";
+		}
+	}
+
+
+}
 
 ?>

@@ -151,7 +151,7 @@ function Valid()
     return false;
   }
 
-  while(true)
+  /*while(true)
   {
     var chose = document.getElementById('date').value;
     var split = chose.split("-");
@@ -168,6 +168,6 @@ function Valid()
     {
       return false;
     }
-  }
+  }*/
 
 }

@@ -132,21 +132,22 @@
     }
     .img{
       grid-area: image;
-      margin: 0px 0px 0px 150px;
+      margin: 20px 20px 0px 50px;
     }
     .mov{
       grid-area: mov;
       text-align: center;
       font-size: 40px;
-      margin: 0px 40px 0px 0px;
+      margin: 20px 40px 0px 0px;
     }
     .name{
       grid-area: Name;
-      margin: 10px 50px 10px 100px;
+      margin: 50px 40px 50px 40px;
       font-size: 30px;
     }
     .title
     {
+      margin: 50px 50px 0px 50px;
       grid-area: title;
       text-align: center;
       font-size: 30px;
@@ -158,12 +159,29 @@
       'banner banner banner banner banner banner'
       'blank blank blank blank blank blank '
       'title title title title title title '
+      'layout layout layout layout layout layout'
+      'layout layout layout layout layout layout'
+      'layout layout layout layout layout layout'
+      'layout layout layout layout layout layout'
+      'layout layout layout layout layout layout';
+    }
+
+    .mov-container{
+      grid-area: layout;
+      background-color:  #d2d2d2;
+      margin: 50px 150px 150px 150px;
+    }
+
+    .ticketLayout
+    {
+      display: grid;
+      grid-template-areas:
       'image image image mov mov mov'
       'Name Name Name Name Name Name'
       'Name Name Name Name Name Name'
       'Name Name Name Name Name Name'
       'Name Name Name Name Name Name'
-      'Name Name Name Name Name Name'
+      'Name Name Name Name Name Name';
     }
     </style>
   </head>

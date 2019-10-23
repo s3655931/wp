@@ -383,18 +383,23 @@
               echo "<div>Lunardo Cinema</div>";
               echo "<div>Your Ticket</div>";
             echo "</div>";
-            echo "<img class=\"img\" src=\"".$imgLink."\" width=\"200\" alt=\"movie poster\">";
-
-            echo "<div class=\"mov\">".$yourMovie."</div>";
-
-            echo "<div class=\"name\"><p>Name: ".$custName."</p>";
-            echo "<p>When: ".$dateTime."</p>";
-            echo "<p>Where: Lunardo cinema</p>";
-            echo "<p>Ticket: ".$tickType."</p>";
-            echo "</div>";
-
             echo "<div class=\"title\">Show this ticket at the front then enter the cinema<br> Enjoy the Movie!</div>";
             // This quote was taken from the village cinema online ticket
+            echo "<div class=\"mov-container\">";
+              echo "<div class=\"ticketLayout\">";
+                echo "<img class=\"img\" src=\"".$imgLink."\" width=\"200\" alt=\"movie poster\">";
+
+                echo "<div class=\"mov\">".$yourMovie."</div>";
+
+                echo "<div class=\"name\"><p>Name: ".$custName."</p>";
+                echo "<p>When: ".$dateTime."</p>";
+                echo "<p>Where: Lunardo cinema</p>";
+                echo "<p>Ticket: ".$tickType."</p>";
+                echo "</div>";
+              echo "</div>";
+            echo "</div>";
+            echo "</div>";
+
           echo "</div>";
         }
       }

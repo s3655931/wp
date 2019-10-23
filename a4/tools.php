@@ -474,7 +474,7 @@ function inputValid()
 		
 		//echo $newval->format('%R%m');
 
-		if ($newval->format('%R%m') < 1)
+		if ($newval->format('%R%a') < 28)
 		{
 			echo "Invalid expiry date";
 		}

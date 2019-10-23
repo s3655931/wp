@@ -1,7 +1,24 @@
 <?php
 include 'tools.php';
 
-sessionArray();
+$name = $email = $mobile = $card = $expiry = "";
+$id = $day = $hour = "";
+
+if (isset($_POST['cust']))
+{
+	$name = $_POST['cust']['name'];
+	$email = $_POST['cust']['email'];
+	$mobile = $_POST['cust']['mobile'];
+	$card = $_POST['cust']['card'];
+	$expiry = $_POST['cust']['expiry'];
+
+	$id = $_POST['movie']['id'];
+	$day = $_POST['movie']['day'];
+	$hour = $_POST['movie']['hour'];
+}
+
+inputValid();
+//sessionArray();
 ?>
 
 <!DOCTYPE html>
@@ -326,9 +343,9 @@ sessionArray();
         <div class="bookRow">
           <div class="bookCol">
 
-            <input type="hidden" name="movie[id]" id="movie[id]" value="">
-            <input type="hidden" name="movie[day]" id="movie[day]" value="">
-            <input type="hidden" name="movie[hour]" id="movie[hour]" value="">
+            <input type="hidden" name="movie[id]" id="movie[id]" value="<?php echo $id;?>">
+            <input type="hidden" name="movie[day]" id="movie[day]" value="<?php echo $day;?>">
+            <input type="hidden" name="movie[hour]" id="movie[hour]" value="<?php echo $hour;?>">
 
             <fieldset class="standard">
               <legend>Standard</legend>
@@ -421,19 +438,19 @@ sessionArray();
 
           <div class="fieldCol">
               <div class="flexCon">
-                <label>Name:</label> <input id="name" type="text" name="cust[name]" value="" pattern="[a-zA-z]+ +[a-zA-z]+" title="Enter full name">
+                <label>Name:</label> <input id="name" type="text" name="cust[name]" value="<?php echo $name;?>" pattern="[a-zA-z]+ +[a-zA-z]+" title="Enter full name">
               </div>
               <div class="flexCon">
-                <label>Email:</label><input id="email" type="email" name="cust[email]" value="">
+                <label>Email:</label><input id="email" type="email" name="cust[email]" value="<?php echo $email;?>">
               </div>
               <div class="flexCon">
-                <label>Mobile:</label> <input id="tel" type="tel" name="cust[mobile]" value="" pattern="(\(04\)|04|\+614)( ?\d){8}" title="Incorrect phone number">
+                <label>Mobile:</label> <input id="tel" type="tel" name="cust[mobile]" value="<?php echo $mobile;?>" pattern="(\(04\)|04|\+614)( ?\d){8}" title="Incorrect phone number">
               </div>
               <div class="flexCon">
-                <label>Credit Card:</label>  <input id="credit" type="text" name="cust[card]" value="" pattern="( ?\d){19}|( ?\d){14}" title="Incorrect credit card number">
+                <label>Credit Card:</label>  <input id="credit" type="text" name="cust[card]" value="<?php echo $card;?>" pattern="( ?\d){19}|( ?\d){14}" title="Incorrect credit card number">
               </div>
               <div class="flexCon">
-                <label>Expiry:</label>  <input id="date" type="month" name="cust[expiry]" value="">
+                <label>Expiry:</label>  <input id="date" type="month" name="cust[expiry]" value="<?php echo $expiry;?>">
               </div>
               <div class="flexCon">
               <input type="submit" name="order" value="Order" onclick="window.location.href = 'receipt.php';">
@@ -463,11 +480,13 @@ sessionArray();
   </body>
 </html>
 <?php
+
+inputValid();
+
 preShow($_POST); // ie echo a string
 preShow($_SESSION);
-$aaarg = preShow($_SESSION['movie'], true); // ie return as a string
-echo "Why is \n $aaarg \n not working?";
-
+//$aaarg = preShow($_SESSION['cart']['movie'], true); // ie return as a string
+//echo "Why is \n $aaarg \n not working?";
 
 printMyCode(); // prints all lines of code in this file with line numbers
 

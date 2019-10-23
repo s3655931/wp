@@ -197,7 +197,7 @@
           <div class=itemItem>Item(s)</div>
           <div class=quantityItem>Quantity</div>
           <div class=PriceItem>Price</div>
-          <div class=eventItem><?php getMovie(); echo "<br>"; dateTime();?></div>
+          <div class=eventItem><?php getMovie(); echo "<br>"; echo dateTime();?></div>
           <div class=quantNoItem><?php printTicketQuant();?></div>
           <div class=princeNoItem><?php printIndividualPrice();?></div>
           <div class=GSTItem>GST:</div>

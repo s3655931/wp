@@ -298,7 +298,7 @@
         break;
     }
     $time = str_replace('T','',$_SESSION['cart']['movie']['hour']);
-    echo $day.' '.$time.':00';
+    // echo $day.' '.$time.':00';
     return $day.' '.$time.':00';
   }
 

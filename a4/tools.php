@@ -1,8 +1,4 @@
 <?php
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 614ab164c13592b42df31438b352eab5b0c1709a
 
   session_start();
 
@@ -411,10 +407,6 @@
 
     }
   }
-<<<<<<< HEAD
->>>>>>> master
-=======
->>>>>>> 614ab164c13592b42df31438b352eab5b0c1709a
 
 function inputValid()
 {
@@ -554,10 +546,33 @@ function inputValid()
 
 function writeToFile()
 {
-	$fp = fopen('bookings.txt', "a");
-	flock($fp, LOCK_SH);
+	$today = date_create("now");
+	$date = date_format($today, 'd-m-y');
+	$fname = $_SESSION['cart']['cust']['name'];
+	$femail = $_SESSION['cart']['cust']['email'];
+	$fmobile = $_SESSION['cart']['cust']['mobile'];
+	$fid = $_SESSION['cart']['movie']['id'];
+	$fday = $_SESSION['cart']['movie']['day'];
+	$fhour = $_SESSION['cart']['movie']['hour'];
 
-	fwrite($fp, $today . "\t");
+	$fsta = $_SESSION['cart']['seats']['STA'];
+	$fstp = $_SESSION['cart']['seats']['STP'];
+	$fstc = $_SESSION['cart']['seats']['STC'];
+	$ffca = $_SESSION['cart']['seats']['FCA'];
+	$ffcp = $_SESSION['cart']['seats']['FCP'];
+	$ffcc = $_SESSION['cart']['seats']['FCC'];
+
+	$ftotal = printPrice();
+
+	$list = array($date, $fname, $femail, $fmobile, $fid, $fday, $fhour, $fsta, $fstp, $fstc, $ffca, $ffcp, $ffcc, $ftotal);
+
+	$fp = fopen("bookings.txt", "a+");
+	flock($fp, LOCK_EX);
+
+	fputcsv($fp, $list);
+
+	flock($fp, LOCK_UN);
+	fclose($fp);
 }
 
 ?>

@@ -1,5 +1,6 @@
 <?php
   include 'tools.php';
+  writeToFile();
   receiptRedirectCheck();
   receiptArray();
 ?>

@@ -485,8 +485,6 @@ inputValid();
 
 preShow($_POST); // ie echo a string
 preShow($_SESSION);
-//$aaarg = preShow($_SESSION['cart']['movie'], true); // ie return as a string
-//echo "Why is \n $aaarg \n not working?";
 
 printMyCode(); // prints all lines of code in this file with line numbers
 

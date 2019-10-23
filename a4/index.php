@@ -436,7 +436,7 @@ sessionArray();
                 <label>Expiry:</label>  <input id="date" type="month" name="cust[expiry]" value="">
               </div>
               <div class="flexCon">
-              <input type="submit" name="order" value="Order">
+              <input type="submit" name="order" value="Order" onclick="window.location.href = 'receipt.php';">
             </div>
           </div>
           </div>

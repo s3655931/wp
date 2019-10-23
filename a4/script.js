@@ -113,6 +113,8 @@ function selectDateTime(input, time, mov, day) {
 		title = 'The Happy Prince';
 	}
 
+	document.getElementById('Booking').style.display = "block";
+
 	document.getElementById('bookTitle').innerHTML = title + ' - ' + datetime;
 
 	document.getElementById('movie[id]').value = mov;
